@@ -1,0 +1,112 @@
+.TH "Models.HardwareTicket" 3 "TICKET2HELP MANAGEMENT PLATFORM" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Models.HardwareTicket \- Represents a hardware-related ticket in the Ticket2Help system\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBModels\&.Ticket\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override string \fBGetSummary\fP ()"
+.br
+.RI "Gets a summary of the hardware ticket\&. "
+.in -1c
+
+Public Member Functions inherited from \fBModels\&.Ticket\fP
+.in +1c
+.ti -1c
+.RI "string \fBGetSummary\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "string \fBEquipment\fP\fR [get, set]\fP"
+.br
+.RI "Gets or sets the equipment involved in the hardware ticket and the malfunction description\&. "
+.ti -1c
+.RI "string \fBMalfunction\fP\fR [get, set]\fP"
+.br
+.RI "Gets or sets the description of the malfunction in the hardware ticket\&. "
+.in -1c
+
+Properties inherited from \fBModels\&.Ticket\fP
+.in +1c
+.ti -1c
+.RI "int \fBId\fP\fR [get, set]\fP"
+.br
+.RI "Gets or sets the unique identifier for the ticket\&. "
+.ti -1c
+.RI "string \fBUsername\fP\fR [get, set]\fP"
+.br
+.RI "Gets or sets the username of the user who created the ticket\&. "
+.ti -1c
+.RI "string \fBTicketType\fP\fR [get, set]\fP"
+.br
+.RI "Gets or sets the type of the ticket, which can be 'Hardware' or 'Software'\&. "
+.ti -1c
+.RI "DateTime \fBCreatedAt\fP\fR [get, set]\fP"
+.br
+.RI "Gets or sets the date and time when the ticket was created\&. "
+.ti -1c
+.RI "DateTime \fBAnsweredAt\fP\fR [get, set]\fP"
+.br
+.RI "Gets or sets the date and time when the ticket was answered\&. "
+.ti -1c
+.RI "string \fBStatus\fP\fR [get, set]\fP"
+.br
+.RI "Gets or sets the status of the ticket, which can be 'Unanswered', 'In Service', or 'Fulfilled'\&. "
+.ti -1c
+.RI "string \fBServiceStatus\fP\fR [get, set]\fP"
+.br
+.RI "Gets or sets the service status of the ticket, which can be 'Open', 'Resolved', or 'Not Resolved'\&. "
+.ti -1c
+.RI "string \fBResponse\fP\fR [get, set]\fP"
+.br
+.RI "Response for the ticket\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Represents a hardware-related ticket in the Ticket2Help system\&. 
+.PP
+Definition at line \fB59\fP of file \fBTicket\&.cs\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "override string Models\&.HardwareTicket\&.GetSummary ()"
+
+.PP
+Gets a summary of the hardware ticket\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The sumary of the software tickets
+.RE
+.PP
+
+.PP
+Definition at line \fB76\fP of file \fBTicket\&.cs\fP\&.
+.SH "Property Documentation"
+.PP 
+.SS "string Models\&.HardwareTicket\&.Equipment\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Gets or sets the equipment involved in the hardware ticket and the malfunction description\&. 
+.PP
+Definition at line \fB65\fP of file \fBTicket\&.cs\fP\&.
+.SS "string Models\&.HardwareTicket\&.Malfunction\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Gets or sets the description of the malfunction in the hardware ticket\&. 
+.PP
+Definition at line \fB70\fP of file \fBTicket\&.cs\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for TICKET2HELP MANAGEMENT PLATFORM from the source code\&.

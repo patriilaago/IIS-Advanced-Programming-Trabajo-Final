@@ -1,0 +1,113 @@
+.TH "Models.Ticket" 3 "TICKET2HELP MANAGEMENT PLATFORM" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Models.Ticket \- Base class for tickets in the Ticket2Help system\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBModels\&.HardwareTicket\fP, and \fBModels\&.SoftwareTicket\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "string \fBGetSummary\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "int \fBId\fP\fR [get, set]\fP"
+.br
+.RI "Gets or sets the unique identifier for the ticket\&. "
+.ti -1c
+.RI "string \fBUsername\fP\fR [get, set]\fP"
+.br
+.RI "Gets or sets the username of the user who created the ticket\&. "
+.ti -1c
+.RI "string \fBTicketType\fP\fR [get, set]\fP"
+.br
+.RI "Gets or sets the type of the ticket, which can be 'Hardware' or 'Software'\&. "
+.ti -1c
+.RI "DateTime \fBCreatedAt\fP\fR [get, set]\fP"
+.br
+.RI "Gets or sets the date and time when the ticket was created\&. "
+.ti -1c
+.RI "DateTime \fBAnsweredAt\fP\fR [get, set]\fP"
+.br
+.RI "Gets or sets the date and time when the ticket was answered\&. "
+.ti -1c
+.RI "string \fBStatus\fP\fR [get, set]\fP"
+.br
+.RI "Gets or sets the status of the ticket, which can be 'Unanswered', 'In Service', or 'Fulfilled'\&. "
+.ti -1c
+.RI "string \fBServiceStatus\fP\fR [get, set]\fP"
+.br
+.RI "Gets or sets the service status of the ticket, which can be 'Open', 'Resolved', or 'Not Resolved'\&. "
+.ti -1c
+.RI "string \fBResponse\fP\fR [get, set]\fP"
+.br
+.RI "Response for the ticket\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Base class for tickets in the Ticket2Help system\&. 
+.PP
+Definition at line \fB12\fP of file \fBTicket\&.cs\fP\&.
+.SH "Property Documentation"
+.PP 
+.SS "DateTime Models\&.Ticket\&.AnsweredAt\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Gets or sets the date and time when the ticket was answered\&. 
+.PP
+Definition at line \fB37\fP of file \fBTicket\&.cs\fP\&.
+.SS "DateTime Models\&.Ticket\&.CreatedAt\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Gets or sets the date and time when the ticket was created\&. 
+.PP
+Definition at line \fB32\fP of file \fBTicket\&.cs\fP\&.
+.SS "int Models\&.Ticket\&.Id\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Gets or sets the unique identifier for the ticket\&. 
+.PP
+Definition at line \fB17\fP of file \fBTicket\&.cs\fP\&.
+.SS "string Models\&.Ticket\&.Response\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Response for the ticket\&. 
+.PP
+Definition at line \fB52\fP of file \fBTicket\&.cs\fP\&.
+.SS "string Models\&.Ticket\&.ServiceStatus\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Gets or sets the service status of the ticket, which can be 'Open', 'Resolved', or 'Not Resolved'\&. 
+.PP
+Definition at line \fB47\fP of file \fBTicket\&.cs\fP\&.
+.SS "string Models\&.Ticket\&.Status\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Gets or sets the status of the ticket, which can be 'Unanswered', 'In Service', or 'Fulfilled'\&. 
+.PP
+Definition at line \fB42\fP of file \fBTicket\&.cs\fP\&.
+.SS "string Models\&.Ticket\&.TicketType\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Gets or sets the type of the ticket, which can be 'Hardware' or 'Software'\&. 
+.PP
+Definition at line \fB27\fP of file \fBTicket\&.cs\fP\&.
+.SS "string Models\&.Ticket\&.Username\fR [get]\fP, \fR [set]\fP"
+
+.PP
+Gets or sets the username of the user who created the ticket\&. 
+.PP
+Definition at line \fB22\fP of file \fBTicket\&.cs\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for TICKET2HELP MANAGEMENT PLATFORM from the source code\&.

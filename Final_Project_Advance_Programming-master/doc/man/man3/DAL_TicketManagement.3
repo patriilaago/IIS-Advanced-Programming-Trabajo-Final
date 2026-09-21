@@ -1,0 +1,87 @@
+.TH "DAL.TicketManagement" 3 "TICKET2HELP MANAGEMENT PLATFORM" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+DAL.TicketManagement \- Class for managing tickets in the database\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "List< \fBTicket\fP > \fBGetTicketsByUser\fP (string username)"
+.br
+.ti -1c
+.RI "bool \fBInsertTicket\fP (\fBTicket\fP ticket)"
+.br
+.RI "Inserts a ticket into the database\&. "
+.ti -1c
+.RI "bool \fBUpdateTicketResponse\fP (int ticketId, string response)"
+.br
+.RI "
+.br
+ Manages ticket operations for technicians in the database\&. "
+.ti -1c
+.RI "bool \fBUpdateTicketStatus\fP (int ticketId, string status, string serviceStatus)"
+.br
+.RI "Updates the status and service status of a ticket\&. "
+.ti -1c
+.RI "List< \fBTicket\fP > \fBGetAllTickets\fP ()"
+.br
+.RI "Gets all tickets from the database\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class for managing tickets in the database\&. 
+.PP
+Definition at line \fB37\fP of file \fBTicketManagement\&.cs\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "List< \fBTicket\fP > DAL\&.TicketManagement\&.GetAllTickets ()"
+
+.PP
+Gets all tickets from the database\&. 
+.PP
+Definition at line \fB228\fP of file \fBTicketManagement\&.cs\fP\&.
+.SS "List< \fBTicket\fP > DAL\&.TicketManagement\&.GetTicketsByUser (string username)"
+
+.PP
+Definition at line \fB41\fP of file \fBTicketManagement\&.cs\fP\&.
+.SS "bool DAL\&.TicketManagement\&.InsertTicket (\fBTicket\fP ticket)"
+
+.PP
+Inserts a ticket into the database\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIticket\fP It'a the (harware of software) ticket to insert\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The number of the tickets inserted in the databse
+.RE
+.PP
+
+.PP
+Definition at line \fB103\fP of file \fBTicketManagement\&.cs\fP\&.
+.SS "bool DAL\&.TicketManagement\&.UpdateTicketResponse (int ticketId, string response)"
+
+.PP
+
+.br
+ Manages ticket operations for technicians in the database\&. 
+.PP
+Definition at line \fB154\fP of file \fBTicketManagement\&.cs\fP\&.
+.SS "bool DAL\&.TicketManagement\&.UpdateTicketStatus (int ticketId, string status, string serviceStatus)"
+
+.PP
+Updates the status and service status of a ticket\&. 
+.PP
+Definition at line \fB178\fP of file \fBTicketManagement\&.cs\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for TICKET2HELP MANAGEMENT PLATFORM from the source code\&.

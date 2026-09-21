@@ -1,0 +1,10 @@
+<map id="PA_WPF_DB.TechnicianDashboard" name="PA_WPF_DB.TechnicianDashboard">
+<area shape="rect" id="Node000001" title="TechnicianDashboard." alt="" coords="5,96,235,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="33,13,207,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,55,105,76,109,95,104,96,100,77,100,55"/>
+<area shape="poly" id="edge3_Node000001_Node000002" title=" " alt="" coords="123,56,123,96,117,96,117,56"/>
+<area shape="poly" id="edge5_Node000001_Node000002" title=" " alt="" coords="140,55,140,77,136,96,131,95,135,76,134,55"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="230,5,474,48"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="271,56,150,98,149,93,269,51"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="287,56,164,98,163,93,285,51"/>
+</map>

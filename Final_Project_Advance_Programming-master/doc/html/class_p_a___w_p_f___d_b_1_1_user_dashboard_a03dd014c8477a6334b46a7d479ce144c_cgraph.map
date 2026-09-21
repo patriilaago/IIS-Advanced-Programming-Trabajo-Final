@@ -1,0 +1,5 @@
+<map id="PA_WPF_DB.UserDashboard.UserDashboard" name="PA_WPF_DB.UserDashboard.UserDashboard">
+<area shape="rect" id="Node000001" title="Constructor for UserDashboard that initializes the window with the username of the logged&#45;in user." alt="" coords="5,5,204,48"/>
+<area shape="rect" id="Node000002" href="$class_p_a___w_p_f___d_b_1_1_user_dashboard.html#a1f4ff60f11887f73366ec263531263ad" title="InitializeComponent." alt="" coords="252,5,450,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,24,236,24,236,29,204,29"/>
+</map>

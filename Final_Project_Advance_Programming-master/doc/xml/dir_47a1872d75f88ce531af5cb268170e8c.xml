@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_47a1872d75f88ce531af5cb268170e8c" kind="dir">
+    <compoundname>C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Release/net8.0-windows</compoundname>
+    <innerfile refid="_p_a-_w_p_f-_d_b_2obj_2_release_2net8_80-windows_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs">.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</innerfile>
+    <innerfile refid="_release_2net8_80-windows_2_app_8g_8cs">App.g.cs</innerfile>
+    <innerfile refid="_release_2net8_80-windows_2_main_window_8g_8cs">MainWindow.g.cs</innerfile>
+    <innerfile refid="_release_2net8_80-windows_2_new_ticket_8g_8cs">NewTicket.g.cs</innerfile>
+    <innerfile refid="_release_2net8_80-windows_2_p_a-_w_p_f-_d_b_8_assembly_info_8cs">PA-WPF-DB.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_release_2net8_80-windows_2_p_a-_w_p_f-_d_b_8_global_usings_8g_8cs">PA-WPF-DB.GlobalUsings.g.cs</innerfile>
+    <innerfile refid="_release_2net8_80-windows_2_technician_response_window_8g_8cs">TechnicianResponseWindow.g.cs</innerfile>
+    <innerfile refid="_release_2net8_80-windows_2_user_dashboard_8g_8cs">UserDashboard.g.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Release/net8.0-windows/"/>
+  </compounddef>
+</doxygen>

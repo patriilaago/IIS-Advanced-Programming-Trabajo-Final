@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="namespace_d_a_l" kind="namespace" language="C#">
+    <compoundname>DAL</compoundname>
+    <innerclass refid="class_d_a_l_1_1_ticket_factory" prot="public">DAL::TicketFactory</innerclass>
+    <innerclass refid="class_d_a_l_1_1_ticket_management" prot="public">DAL::TicketManagement</innerclass>
+    <innerclass refid="class_d_a_l_1_1_user_management" prot="public">DAL::UserManagement</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

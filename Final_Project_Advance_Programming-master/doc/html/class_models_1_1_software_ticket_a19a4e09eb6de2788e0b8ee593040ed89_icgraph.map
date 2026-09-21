@@ -1,0 +1,7 @@
+<map id="Models.SoftwareTicket.GetSummary" name="Models.SoftwareTicket.GetSummary">
+<area shape="rect" id="Node000001" title="Gets a summary of the software ticket." alt="" coords="306,55,483,97"/>
+<area shape="rect" id="Node000002" href="$class_tests_1_1_ticket_tests.html#a02a065dc95bd3daea3212f697904312d" title="Tests that long descriptions in software tickets do not break the summary." alt="" coords="42,5,221,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="290,62,221,51,221,46,291,57"/>
+<area shape="rect" id="Node000003" href="$class_tests_1_1_ticket_tests.html#a679fcf2851d298aaad4dd1dba6325139" title="Tests that null values in a software ticket do not cause errors in GetSummary()." alt="" coords="5,88,258,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="291,95,258,100,258,95,290,90"/>
+</map>

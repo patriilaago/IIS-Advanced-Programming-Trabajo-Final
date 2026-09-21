@@ -1,0 +1,60 @@
+.TH "BLL.DashboardStatisticsService" 3 "TICKET2HELP MANAGEMENT PLATFORM" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+BLL.DashboardStatisticsService
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBDashboardStatisticsService\fP (string connectionString)"
+.br
+.ti -1c
+.RI "double \fBGetPercentageFulfilledWithinDateRange\fP (DateTime start, DateTime end)"
+.br
+.RI "Calculates the percentage of fulfilled tickets within the given date range\&. "
+.ti -1c
+.RI "Dictionary< string, int > \fBGetServiceStatusDistribution\fP (DateTime? start=null, DateTime? end=null)"
+.br
+.RI "Returns the number of tickets grouped by service status\&. Optionally filters by date\&. "
+.ti -1c
+.RI "Dictionary< string, double > \fBGetAverageServiceTimePerType\fP (DateTime? start=null, DateTime? end=null)"
+.br
+.RI "Calculates the average service time (in minutes) for each ticket type\&. Optionally filters by date\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line \fB7\fP of file \fBDashboardStatisticsService\&.cs\fP\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "BLL\&.DashboardStatisticsService\&.DashboardStatisticsService (string connectionString)"
+
+.PP
+Definition at line \fB11\fP of file \fBDashboardStatisticsService\&.cs\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "Dictionary< string, double > BLL\&.DashboardStatisticsService\&.GetAverageServiceTimePerType (DateTime? start = \fRnull\fP, DateTime? end = \fRnull\fP)"
+
+.PP
+Calculates the average service time (in minutes) for each ticket type\&. Optionally filters by date\&. 
+.PP
+Definition at line \fB92\fP of file \fBDashboardStatisticsService\&.cs\fP\&.
+.SS "double BLL\&.DashboardStatisticsService\&.GetPercentageFulfilledWithinDateRange (DateTime start, DateTime end)"
+
+.PP
+Calculates the percentage of fulfilled tickets within the given date range\&. 
+.PP
+Definition at line \fB19\fP of file \fBDashboardStatisticsService\&.cs\fP\&.
+.SS "Dictionary< string, int > BLL\&.DashboardStatisticsService\&.GetServiceStatusDistribution (DateTime? start = \fRnull\fP, DateTime? end = \fRnull\fP)"
+
+.PP
+Returns the number of tickets grouped by service status\&. Optionally filters by date\&. 
+.PP
+Definition at line \fB52\fP of file \fBDashboardStatisticsService\&.cs\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for TICKET2HELP MANAGEMENT PLATFORM from the source code\&.

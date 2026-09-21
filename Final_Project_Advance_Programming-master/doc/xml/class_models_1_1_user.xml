@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_models_1_1_user" kind="class" language="C#" prot="public">
+    <compoundname>Models::User</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_models_1_1_user_1a293686fdd3d2e69414837bd7bcce6360" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Models.User.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <qualifiedname>Models.User.Username</qualifiedname>
+        <briefdescription>
+<para>Gets or sets the username of the user. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/Models/User.cs" line="17" column="23" bodyfile="C:/Final_Project_Advance_Programming/Models/User.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_user_1ad1765600b1d3a0752f3dec066a4b1c17" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Models.User.Role</definition>
+        <argsstring></argsstring>
+        <name>Role</name>
+        <qualifiedname>Models.User.Role</qualifiedname>
+        <briefdescription>
+<para>Gets or sets the role of the user. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/Models/User.cs" line="21" column="23" bodyfile="C:/Final_Project_Advance_Programming/Models/User.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents a user in the Ticket2Help system. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Final_Project_Advance_Programming/Models/User.cs" line="12" column="11" bodyfile="C:/Final_Project_Advance_Programming/Models/User.cs" bodystart="13" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_models_1_1_user_1ad1765600b1d3a0752f3dec066a4b1c17" prot="public" virt="non-virtual"><scope>Models::User</scope><name>Role</name></member>
+      <member refid="class_models_1_1_user_1a293686fdd3d2e69414837bd7bcce6360" prot="public" virt="non-virtual"><scope>Models::User</scope><name>Username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

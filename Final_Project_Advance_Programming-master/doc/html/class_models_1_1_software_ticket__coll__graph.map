@@ -1,0 +1,5 @@
+<map id="Models.SoftwareTicket" name="Models.SoftwareTicket">
+<area shape="rect" id="Node000001" title="Represents a software&#45;related ticket in the Ticket2Help system." alt="" coords="5,80,158,107"/>
+<area shape="rect" id="Node000002" href="$class_models_1_1_ticket.html" title="Base class for tickets in the Ticket2Help system." alt="" coords="30,5,133,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,48,84,80,79,80,79,48"/>
+</map>

@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_d_a_l_1_1_ticket_management" kind="class" language="C#" prot="public">
+    <compoundname>DAL::TicketManagement</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_d_a_l_1_1_ticket_management_1a2e845c02ba14ce0b4bb540f9b4ddcb1d" prot="private" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string DAL.TicketManagement.connectionString</definition>
+        <argsstring></argsstring>
+        <name>connectionString</name>
+        <qualifiedname>DAL.TicketManagement.connectionString</qualifiedname>
+        <initializer>=
+            ConfigurationManager.ConnectionStrings[&quot;Ticket2HelpConnection&quot;].ConnectionString</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" line="38" column="33" bodyfile="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_a_l_1_1_ticket_management_1ac3787bdd4151a2c8c1f24740a0fb46c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_ticket" kindref="compound">Ticket</ref> &gt;</type>
+        <definition>List&lt; Ticket &gt; DAL.TicketManagement.GetTicketsByUser</definition>
+        <argsstring>(string username)</argsstring>
+        <name>GetTicketsByUser</name>
+        <qualifiedname>DAL.TicketManagement.GetTicketsByUser</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" line="41" column="21" bodyfile="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" bodystart="41" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_a_l_1_1_ticket_management_1a9f5064c8612a97c07179449daf671a84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DAL.TicketManagement.InsertTicket</definition>
+        <argsstring>(Ticket ticket)</argsstring>
+        <name>InsertTicket</name>
+        <qualifiedname>DAL.TicketManagement.InsertTicket</qualifiedname>
+        <param>
+          <type><ref refid="class_models_1_1_ticket" kindref="compound">Ticket</ref></type>
+          <declname>ticket</declname>
+        </param>
+        <briefdescription>
+<para>Inserts a ticket into the database. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ticket</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>It&apos;a the (harware of software) ticket to insert.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of the tickets inserted in the databse</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" line="103" column="21" bodyfile="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" bodystart="103" bodyend="147"/>
+        <references refid="class_models_1_1_ticket_1aede0c39c54ad8e295e034e65c8cdbdbf" compoundref="_ticket_8cs" startline="32" endline="32">Models.Ticket.CreatedAt</references>
+        <references refid="class_models_1_1_ticket_1a482f8197ba1b32f34ceb7123f69e7c03" compoundref="_ticket_8cs" startline="47" endline="47">Models.Ticket.ServiceStatus</references>
+        <references refid="class_models_1_1_ticket_1afeb79a6a453b489a7f1c0393bac1790b" compoundref="_ticket_8cs" startline="42" endline="42">Models.Ticket.Status</references>
+        <references refid="class_models_1_1_ticket_1a68f42cb157dbf6b38df055f3c2ace33f" compoundref="_ticket_8cs" startline="27" endline="27">Models.Ticket.TicketType</references>
+        <references refid="class_models_1_1_ticket_1a1ce9b8250c4f16a5a3dd89b0f56d28f1" compoundref="_ticket_8cs" startline="22" endline="22">Models.Ticket.Username</references>
+      </memberdef>
+      <memberdef kind="function" id="class_d_a_l_1_1_ticket_management_1a26e943ebee9ec47ada280a6f471651db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DAL.TicketManagement.UpdateTicketResponse</definition>
+        <argsstring>(int ticketId, string response)</argsstring>
+        <name>UpdateTicketResponse</name>
+        <qualifiedname>DAL.TicketManagement.UpdateTicketResponse</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ticketId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>response</declname>
+        </param>
+        <briefdescription>
+<para><linebreak/>
+ Manages ticket operations for technicians in the database. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" line="154" column="21" bodyfile="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" bodystart="154" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_a_l_1_1_ticket_management_1a332ee677725e391ced9cd048d930046e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DAL.TicketManagement.UpdateTicketStatus</definition>
+        <argsstring>(int ticketId, string status, string serviceStatus)</argsstring>
+        <name>UpdateTicketStatus</name>
+        <qualifiedname>DAL.TicketManagement.UpdateTicketStatus</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ticketId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>serviceStatus</declname>
+        </param>
+        <briefdescription>
+<para>Updates the status and service status of a ticket. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" line="178" column="21" bodyfile="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" bodystart="178" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_a_l_1_1_ticket_management_1a8c9fc5145d82ed8fd80d3c607dd03347" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_ticket" kindref="compound">Ticket</ref> &gt;</type>
+        <definition>List&lt; Ticket &gt; DAL.TicketManagement.GetAllTickets</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllTickets</name>
+        <qualifiedname>DAL.TicketManagement.GetAllTickets</qualifiedname>
+        <briefdescription>
+<para>Gets all tickets from the database. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" line="228" column="17" bodyfile="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" bodystart="228" bodyend="245"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_d_a_l_1_1_ticket_management_1a3bdf503744902b5739d8a2bbffc50e99" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_models_1_1_ticket" kindref="compound">Ticket</ref></type>
+        <definition>Ticket DAL.TicketManagement.MapTicket</definition>
+        <argsstring>(SqlDataReader reader)</argsstring>
+        <name>MapTicket</name>
+        <qualifiedname>DAL.TicketManagement.MapTicket</qualifiedname>
+        <param>
+          <type>SqlDataReader</type>
+          <declname>reader</declname>
+        </param>
+        <briefdescription>
+<para>Maps the data from a SqlDataReader row to a <ref refid="class_models_1_1_ticket" kindref="compound">Ticket</ref> object. Uses the TicketFactory to create the appropriate subclass (Hardware or Software). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reader</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SqlDataReader containing ticket data from the database.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A <ref refid="class_models_1_1_ticket" kindref="compound">Ticket</ref> object (either <ref refid="class_models_1_1_hardware_ticket" kindref="compound">HardwareTicket</ref> or <ref refid="class_models_1_1_software_ticket" kindref="compound">SoftwareTicket</ref>) populated with data.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" line="198" column="20" bodyfile="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" bodystart="198" bodyend="223"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for managing tickets in the database. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" line="37" column="11" bodyfile="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" bodystart="37" bodyend="247"/>
+    <listofallmembers>
+      <member refid="class_d_a_l_1_1_ticket_management_1a2e845c02ba14ce0b4bb540f9b4ddcb1d" prot="private" virt="non-virtual"><scope>DAL::TicketManagement</scope><name>connectionString</name></member>
+      <member refid="class_d_a_l_1_1_ticket_management_1a8c9fc5145d82ed8fd80d3c607dd03347" prot="public" virt="non-virtual"><scope>DAL::TicketManagement</scope><name>GetAllTickets</name></member>
+      <member refid="class_d_a_l_1_1_ticket_management_1ac3787bdd4151a2c8c1f24740a0fb46c8" prot="public" virt="non-virtual"><scope>DAL::TicketManagement</scope><name>GetTicketsByUser</name></member>
+      <member refid="class_d_a_l_1_1_ticket_management_1a9f5064c8612a97c07179449daf671a84" prot="public" virt="non-virtual"><scope>DAL::TicketManagement</scope><name>InsertTicket</name></member>
+      <member refid="class_d_a_l_1_1_ticket_management_1a3bdf503744902b5739d8a2bbffc50e99" prot="private" virt="non-virtual"><scope>DAL::TicketManagement</scope><name>MapTicket</name></member>
+      <member refid="class_d_a_l_1_1_ticket_management_1a26e943ebee9ec47ada280a6f471651db" prot="public" virt="non-virtual"><scope>DAL::TicketManagement</scope><name>UpdateTicketResponse</name></member>
+      <member refid="class_d_a_l_1_1_ticket_management_1a332ee677725e391ced9cd048d930046e" prot="public" virt="non-virtual"><scope>DAL::TicketManagement</scope><name>UpdateTicketStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

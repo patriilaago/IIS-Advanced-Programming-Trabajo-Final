@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_8da4ae129e401f5ee51ba55c1b10fa35" kind="dir">
+    <compoundname>C:/Final_Project_Advance_Programming/BLL</compoundname>
+    <innerdir refid="dir_9cb9418d850a3d2c05dc4b72f10b5b79">C:/Final_Project_Advance_Programming/BLL/obj</innerdir>
+    <innerfile refid="_dashboard_statistics_service_8cs">DashboardStatisticsService.cs</innerfile>
+    <innerfile refid="_ticket_management_b_l_l_8cs">TicketManagementBLL.cs</innerfile>
+    <innerfile refid="_user_service_8cs">UserService.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Final_Project_Advance_Programming/BLL/"/>
+  </compounddef>
+</doxygen>

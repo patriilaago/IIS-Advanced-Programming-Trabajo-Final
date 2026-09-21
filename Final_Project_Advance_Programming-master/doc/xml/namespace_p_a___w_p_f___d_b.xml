@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="namespace_p_a___w_p_f___d_b" kind="namespace" language="C#">
+    <compoundname>PA_WPF_DB</compoundname>
+    <innerclass refid="class_p_a___w_p_f___d_b_1_1_app" prot="public">PA_WPF_DB::App</innerclass>
+    <innerclass refid="class_p_a___w_p_f___d_b_1_1_dashboard_window" prot="public">PA_WPF_DB::DashboardWindow</innerclass>
+    <innerclass refid="class_p_a___w_p_f___d_b_1_1_main_window" prot="public">PA_WPF_DB::MainWindow</innerclass>
+    <innerclass refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window" prot="public">PA_WPF_DB::NewTicketWindow</innerclass>
+    <innerclass refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard" prot="public">PA_WPF_DB::TechnicianDashboard</innerclass>
+    <innerclass refid="class_p_a___w_p_f___d_b_1_1_technician_response_window" prot="public">PA_WPF_DB::TechnicianResponseWindow</innerclass>
+    <innerclass refid="class_p_a___w_p_f___d_b_1_1_user_dashboard" prot="public">PA_WPF_DB::UserDashboard</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/App.xaml.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

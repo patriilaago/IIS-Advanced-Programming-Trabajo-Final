@@ -1,0 +1,5 @@
+<map id="Tests.TicketTests.Ticket_Summary_WithSpecialCharacters" name="Tests.TicketTests.Ticket_Summary_WithSpecialCharacters">
+<area shape="rect" id="Node000001" title="Tests that special characters are preserved in the ticket summary." alt="" coords="5,5,230,48"/>
+<area shape="rect" id="Node000002" href="$class_models_1_1_hardware_ticket.html#a1a1dd72af7ae94c977b56ee1c6dd5d94" title="Gets a summary of the hardware ticket." alt="" coords="278,5,459,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,24,262,24,262,29,230,29"/>
+</map>

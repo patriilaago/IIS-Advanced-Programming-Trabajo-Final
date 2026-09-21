@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_models_1_1_software_ticket" kind="class" language="C#" prot="public">
+    <compoundname>Models::SoftwareTicket</compoundname>
+    <basecompoundref refid="class_models_1_1_ticket" prot="public" virt="non-virtual">Models.Ticket</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_models_1_1_software_ticket_1a1c81aca3df6af66231b9d2801685638a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Models.SoftwareTicket.Software</definition>
+        <argsstring></argsstring>
+        <name>Software</name>
+        <qualifiedname>Models.SoftwareTicket.Software</qualifiedname>
+        <briefdescription>
+<para>Gets or sets the software involved in the software ticket and the description of the issue. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/Models/Ticket.cs" line="90" column="23" bodyfile="C:/Final_Project_Advance_Programming/Models/Ticket.cs" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="property" id="class_models_1_1_software_ticket_1ab8950ea3561239df4e85df72d1059137" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Models.SoftwareTicket.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>Models.SoftwareTicket.Description</qualifiedname>
+        <briefdescription>
+<para>Gets or sets the description of the issue in the software ticket. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/Models/Ticket.cs" line="95" column="23" bodyfile="C:/Final_Project_Advance_Programming/Models/Ticket.cs" bodystart="95" bodyend="95"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_models_1_1_software_ticket_1a19a4e09eb6de2788e0b8ee593040ed89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Models.SoftwareTicket.GetSummary</definition>
+        <argsstring>()</argsstring>
+        <name>GetSummary</name>
+        <qualifiedname>Models.SoftwareTicket.GetSummary</qualifiedname>
+        <briefdescription>
+<para>Gets a summary of the software ticket. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The sumary of the hardware tickets</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/Models/Ticket.cs" line="101" column="32" bodyfile="C:/Final_Project_Advance_Programming/Models/Ticket.cs" bodystart="101" bodyend="104"/>
+        <referencedby refid="class_tests_1_1_ticket_tests_1a02a065dc95bd3daea3212f697904312d" compoundref="_ticket_tests_8cs" startline="162" endline="172">Tests.TicketTests.SoftwareTicket_LongDescription_ReturnsCorrectSummary</referencedby>
+        <referencedby refid="class_tests_1_1_ticket_tests_1a679fcf2851d298aaad4dd1dba6325139" compoundref="_ticket_tests_8cs" startline="92" endline="97">Tests.TicketTests.SoftwareTicket_NullProperties_ReturnsSummaryWithNulls</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents a software-related ticket in the Ticket2Help system. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Models.SoftwareTicket</label>
+        <link refid="class_models_1_1_software_ticket"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Models.Ticket</label>
+        <link refid="class_models_1_1_ticket"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Models.SoftwareTicket</label>
+        <link refid="class_models_1_1_software_ticket"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Models.Ticket</label>
+        <link refid="class_models_1_1_ticket"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Final_Project_Advance_Programming/Models/Ticket.cs" line="85" column="11" bodyfile="C:/Final_Project_Advance_Programming/Models/Ticket.cs" bodystart="86" bodyend="105"/>
+    <listofallmembers>
+      <member refid="class_models_1_1_ticket_1ace8621c065154f4bad120f877d64ff49" prot="public" virt="non-virtual"><scope>Models::SoftwareTicket</scope><name>AnsweredAt</name></member>
+      <member refid="class_models_1_1_ticket_1aede0c39c54ad8e295e034e65c8cdbdbf" prot="public" virt="non-virtual"><scope>Models::SoftwareTicket</scope><name>CreatedAt</name></member>
+      <member refid="class_models_1_1_software_ticket_1ab8950ea3561239df4e85df72d1059137" prot="public" virt="non-virtual"><scope>Models::SoftwareTicket</scope><name>Description</name></member>
+      <member refid="class_models_1_1_software_ticket_1a19a4e09eb6de2788e0b8ee593040ed89" prot="public" virt="non-virtual"><scope>Models::SoftwareTicket</scope><name>GetSummary</name></member>
+      <member refid="class_models_1_1_ticket_1aa87ba47feeed78c51298c39295e9dae3" prot="public" virt="non-virtual"><scope>Models::SoftwareTicket</scope><name>Id</name></member>
+      <member refid="class_models_1_1_ticket_1a48855fa76be9cf66f78049c22bdb6da6" prot="public" virt="non-virtual"><scope>Models::SoftwareTicket</scope><name>Response</name></member>
+      <member refid="class_models_1_1_ticket_1a482f8197ba1b32f34ceb7123f69e7c03" prot="public" virt="non-virtual"><scope>Models::SoftwareTicket</scope><name>ServiceStatus</name></member>
+      <member refid="class_models_1_1_software_ticket_1a1c81aca3df6af66231b9d2801685638a" prot="public" virt="non-virtual"><scope>Models::SoftwareTicket</scope><name>Software</name></member>
+      <member refid="class_models_1_1_ticket_1afeb79a6a453b489a7f1c0393bac1790b" prot="public" virt="non-virtual"><scope>Models::SoftwareTicket</scope><name>Status</name></member>
+      <member refid="class_models_1_1_ticket_1a68f42cb157dbf6b38df055f3c2ace33f" prot="public" virt="non-virtual"><scope>Models::SoftwareTicket</scope><name>TicketType</name></member>
+      <member refid="class_models_1_1_ticket_1a1ce9b8250c4f16a5a3dd89b0f56d28f1" prot="public" virt="non-virtual"><scope>Models::SoftwareTicket</scope><name>Username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

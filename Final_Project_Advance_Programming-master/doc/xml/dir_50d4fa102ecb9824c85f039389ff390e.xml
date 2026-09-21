@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_50d4fa102ecb9824c85f039389ff390e" kind="dir">
+    <compoundname>C:/Final_Project_Advance_Programming/BLL/obj/Debug/net8.0</compoundname>
+    <innerfile refid="_b_l_l_2obj_2_debug_2net8_80_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs">.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</innerfile>
+    <innerfile refid="_debug_2net8_80_2_b_l_l_8_assembly_info_8cs">BLL.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_debug_2net8_80_2_b_l_l_8_global_usings_8g_8cs">BLL.GlobalUsings.g.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Final_Project_Advance_Programming/BLL/obj/Debug/net8.0/"/>
+  </compounddef>
+</doxygen>

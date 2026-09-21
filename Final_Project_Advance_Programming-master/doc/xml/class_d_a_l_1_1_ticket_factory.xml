@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_d_a_l_1_1_ticket_factory" kind="class" language="C#" prot="public">
+    <compoundname>DAL::TicketFactory</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_d_a_l_1_1_ticket_factory_1a18688aa693ccbca117788f913a0d76e6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_models_1_1_ticket" kindref="compound">Ticket</ref></type>
+        <definition>static Ticket DAL.TicketFactory.CreateTicket</definition>
+        <argsstring>(string type)</argsstring>
+        <name>CreateTicket</name>
+        <qualifiedname>DAL.TicketFactory.CreateTicket</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Creates a ticket based on the type provided using the Factory pattern. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type it&apos;s a string that contains the type of the ticket to create.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Return the ticket that creates</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ArgumentException</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" line="23" column="30" bodyfile="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" bodystart="23" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for the creation of tickets using the Factory pattern. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" line="16" column="19" bodyfile="C:/Final_Project_Advance_Programming/DAL/TicketManagement.cs" bodystart="16" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_d_a_l_1_1_ticket_factory_1a18688aa693ccbca117788f913a0d76e6" prot="public" virt="non-virtual"><scope>DAL::TicketFactory</scope><name>CreateTicket</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

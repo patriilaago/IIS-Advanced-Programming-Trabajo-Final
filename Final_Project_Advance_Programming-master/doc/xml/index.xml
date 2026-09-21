@@ -1,0 +1,610 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.13.2" xml:lang="en-US">
+  <compound refid="class_p_a___w_p_f___d_b_1_1_app" kind="class"><name>PA_WPF_DB::App</name>
+    <member refid="class_p_a___w_p_f___d_b_1_1_app_1ad0561b1bcb3c6a7afda0d00e012d9c02" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_app_1ad0561b1bcb3c6a7afda0d00e012d9c02" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_app_1ad0561b1bcb3c6a7afda0d00e012d9c02" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_app_1a164d56e34be5c5cc51aa0152b724442c" kind="function"><name>Main</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_app_1a164d56e34be5c5cc51aa0152b724442c" kind="function"><name>Main</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_app_1a164d56e34be5c5cc51aa0152b724442c" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_b_l_l_1_1_dashboard_statistics_service" kind="class"><name>BLL::DashboardStatisticsService</name>
+    <member refid="class_b_l_l_1_1_dashboard_statistics_service_1a3caaa6fbb88c3972d315182785d02197" kind="variable"><name>connectionString</name></member>
+    <member refid="class_b_l_l_1_1_dashboard_statistics_service_1a8b0a9e9c5c72975429b12b4c28ab1068" kind="function"><name>DashboardStatisticsService</name></member>
+    <member refid="class_b_l_l_1_1_dashboard_statistics_service_1adf8f048f62b97d56b318ac9b15ea6b69" kind="function"><name>GetPercentageFulfilledWithinDateRange</name></member>
+    <member refid="class_b_l_l_1_1_dashboard_statistics_service_1a9951757705dec5ed2590b4295632d38a" kind="function"><name>GetServiceStatusDistribution</name></member>
+    <member refid="class_b_l_l_1_1_dashboard_statistics_service_1a683a93eebf90c67b82f69216858d4beb" kind="function"><name>GetAverageServiceTimePerType</name></member>
+  </compound>
+  <compound refid="class_p_a___w_p_f___d_b_1_1_dashboard_window" kind="class"><name>PA_WPF_DB::DashboardWindow</name>
+    <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1aeb7afe34b2a0bb0ac5d8a958a35fb19e" kind="variable"><name>statisticsService</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1aae810f71f76d535df30f018e673679b7" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1aff891474a28fdb0d14410086ba785343" kind="property"><name>ServiceStatusSeries</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1ac0668611a1a9f267e0efc1aa21a89d51" kind="property"><name>AverageTimeSeries</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a58afb729f6a43e7020f2641d4eb5d413" kind="property"><name>TimeLabels</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a150c8b5006d90be8a389ded4ccb0b84a" kind="property"><name>FulfilledPercentageText</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a2611f68c7e2ac172f728ddb9084860e8" kind="variable"><name>StartDatePicker</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1ac02b9abd990742c04ccde5a866ef4ece" kind="variable"><name>EndDatePicker</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a609c5939a7c1a2cbd0479f81b21ee9d9" kind="function"><name>DashboardWindow</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a7aaab4b791a6f596ef3a6ca59631d316" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a7aaab4b791a6f596ef3a6ca59631d316" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a0a255ed84e5366d044ca26ad9f613df0" kind="function"><name>LoadDashboardData</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1acf4b0a8eea225382f7589667ac134ce2" kind="function"><name>Refresh_Click</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1afffe935c17abc791f8a7418031e0776b" kind="function"><name>BackToTickets_Click</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1ac1a3f838c0ca542b8eec0bf9ee835223" kind="function"><name>Connect</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1ac1a3f838c0ca542b8eec0bf9ee835223" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_models_1_1_hardware_ticket" kind="class"><name>Models::HardwareTicket</name>
+    <member refid="class_models_1_1_hardware_ticket_1a61f27bfc397a0e264a69aea5bc837796" kind="property"><name>Equipment</name></member>
+    <member refid="class_models_1_1_hardware_ticket_1a118716024aa88b8d4b19253a04e69d96" kind="property"><name>Malfunction</name></member>
+    <member refid="class_models_1_1_hardware_ticket_1a1a1dd72af7ae94c977b56ee1c6dd5d94" kind="function"><name>GetSummary</name></member>
+  </compound>
+  <compound refid="class_p_a___w_p_f___d_b_1_1_main_window" kind="class"><name>PA_WPF_DB::MainWindow</name>
+    <member refid="class_p_a___w_p_f___d_b_1_1_main_window_1a3396213ae37797116ab64fc623248371" kind="variable"><name>txtUsername</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_main_window_1a0c7cfe4858c08f91716da08f26afc648" kind="variable"><name>txtPassword</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_main_window_1a63fa4d2a56a43ad1a6e71efd816f3473" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_main_window_1a2d930c9268d6560038cf448ae3932e74" kind="function"><name>MainWindow</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_main_window_1aeec9b54ce054f8bc56aececf6be3eff6" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_main_window_1aeec9b54ce054f8bc56aececf6be3eff6" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_main_window_1aeec9b54ce054f8bc56aececf6be3eff6" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_main_window_1af7b2b583de8a941a37be287f192a15cf" kind="function"><name>Login_Click</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_main_window_1ad644eeeac6fa1d9cee63ceb5db9b91fe" kind="function"><name>Connect</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_main_window_1ad644eeeac6fa1d9cee63ceb5db9b91fe" kind="function"><name>Connect</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_main_window_1ad644eeeac6fa1d9cee63ceb5db9b91fe" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window" kind="class"><name>PA_WPF_DB::NewTicketWindow</name>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1a0e9eab138b8546f00ba033a46fcb3cb7" kind="variable"><name>_username</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1a6e7f65ec01f40f9d5b35499d6e9a83cd" kind="variable"><name>_ticketManager</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1aa12269970cbb4825df3e406cc97feeeb" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1aaff23ab623b6a207656f7f99cc62a6c4" kind="variable"><name>cbType</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1af679f3b33f84e7bf317c8776b3ac6211" kind="variable"><name>panelHardware</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1a0cbe351e92b11ef4c0cccf42195e6d9b" kind="variable"><name>txtEquipment</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1a0033b29f3d4842052780d5edd4b10c37" kind="variable"><name>txtMalfunction</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1a226b8b6afbfc547a6ceaf10443e311c7" kind="variable"><name>panelSoftware</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1a03d81b319128f9c4d55af2fc2c34236d" kind="variable"><name>txtSoftware</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1a37df1cf363f61dec902f26bf6168728b" kind="variable"><name>txtDescription</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1af9d5a0a6b85128771afb640d02959f29" kind="function"><name>NewTicketWindow</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1a323b16f77a41d17aba7cb3a9b395a4fd" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1a323b16f77a41d17aba7cb3a9b395a4fd" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1a323b16f77a41d17aba7cb3a9b395a4fd" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1aad2559d8ff9bf706dcbde3fb87566bd6" kind="function"><name>Submit_Click</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1ac822a6364b1f7a75cc1069bc2c782f69" kind="function"><name>cbType_SelectionChanged</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1ac72f930d115378e5aa79abf68f321e41" kind="function"><name>Connect</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1ac72f930d115378e5aa79abf68f321e41" kind="function"><name>Connect</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_new_ticket_window_1ac72f930d115378e5aa79abf68f321e41" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_models_1_1_software_ticket" kind="class"><name>Models::SoftwareTicket</name>
+    <member refid="class_models_1_1_software_ticket_1a1c81aca3df6af66231b9d2801685638a" kind="property"><name>Software</name></member>
+    <member refid="class_models_1_1_software_ticket_1ab8950ea3561239df4e85df72d1059137" kind="property"><name>Description</name></member>
+    <member refid="class_models_1_1_software_ticket_1a19a4e09eb6de2788e0b8ee593040ed89" kind="function"><name>GetSummary</name></member>
+  </compound>
+  <compound refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard" kind="class"><name>PA_WPF_DB::TechnicianDashboard</name>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1ac3a2898d2e0fb6725e0a0e5b0df48dba" kind="variable"><name>dgAllTickets</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a51418fd972dfe2f8334cd87c45cbc886" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a55515b68ccca9cfe0c8d067e3948d2a5" kind="variable"><name>_ticketManager</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a48c3cc4b76d0dda4eabc5c4ae3908027" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a48c3cc4b76d0dda4eabc5c4ae3908027" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a121852e41d5e4a95fb9ac77f2781f129" kind="function"><name>TechnicianDashboard</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1ad4bd04ae346bde05f92d1258395dbc58" kind="function"><name>Connect</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1ad4bd04ae346bde05f92d1258395dbc58" kind="function"><name>Connect</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a69477114511da9da948c063d582d615f" kind="function"><name>LoadAllTickets</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a6d0695944c6eb62d052892b0be0f56c9" kind="function"><name>Refresh_Click</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a1556c5a5fa4b74db0f03ba86681f55d3" kind="function"><name>Respond_Click</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a65e5bca4b1d8ba00742bdcb9d01b9566" kind="function"><name>Close_Click</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1aeea514049fd958f840dedc12faee5279" kind="function"><name>ViewStats_Click</name></member>
+  </compound>
+  <compound refid="class_p_a___w_p_f___d_b_1_1_technician_response_window" kind="class"><name>PA_WPF_DB::TechnicianResponseWindow</name>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_response_window_1acbb6a9501007c19ab2ecba036b4eddca" kind="variable"><name>txtResponse</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_response_window_1ade53a26d0ab1ce68320aefde1e8f9d95" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_response_window_1acfd568e02c7108663b3cc95d0c8c9784" kind="variable"><name>_ticketId</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_response_window_1a19a256761085ab53d964ca1ef37cafd0" kind="variable"><name>_ticketManagerBLL</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_response_window_1aa14e8551f485e0e73f235573d207768c" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_response_window_1aa14e8551f485e0e73f235573d207768c" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_response_window_1aa14e8551f485e0e73f235573d207768c" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_response_window_1aaaaa6104baf1e50d781b90071673a003" kind="function"><name>TechnicianResponseWindow</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_response_window_1aea42128c639500c507b252c9781eec45" kind="function"><name>Connect</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_response_window_1aea42128c639500c507b252c9781eec45" kind="function"><name>Connect</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_response_window_1aea42128c639500c507b252c9781eec45" kind="function"><name>Connect</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_technician_response_window_1a868759d23febf8eca8fa952ee0d41ae5" kind="function"><name>Submit_Click</name></member>
+  </compound>
+  <compound refid="class_models_1_1_ticket" kind="class"><name>Models::Ticket</name>
+    <member refid="class_models_1_1_ticket_1aa87ba47feeed78c51298c39295e9dae3" kind="property"><name>Id</name></member>
+    <member refid="class_models_1_1_ticket_1a1ce9b8250c4f16a5a3dd89b0f56d28f1" kind="property"><name>Username</name></member>
+    <member refid="class_models_1_1_ticket_1a68f42cb157dbf6b38df055f3c2ace33f" kind="property"><name>TicketType</name></member>
+    <member refid="class_models_1_1_ticket_1aede0c39c54ad8e295e034e65c8cdbdbf" kind="property"><name>CreatedAt</name></member>
+    <member refid="class_models_1_1_ticket_1ace8621c065154f4bad120f877d64ff49" kind="property"><name>AnsweredAt</name></member>
+    <member refid="class_models_1_1_ticket_1afeb79a6a453b489a7f1c0393bac1790b" kind="property"><name>Status</name></member>
+    <member refid="class_models_1_1_ticket_1a482f8197ba1b32f34ceb7123f69e7c03" kind="property"><name>ServiceStatus</name></member>
+    <member refid="class_models_1_1_ticket_1a48855fa76be9cf66f78049c22bdb6da6" kind="property"><name>Response</name></member>
+    <member refid="class_models_1_1_ticket_1a93181bda1b55aaff28fbe5662549008a" kind="function"><name>GetSummary</name></member>
+  </compound>
+  <compound refid="class_d_a_l_1_1_ticket_factory" kind="class"><name>DAL::TicketFactory</name>
+    <member refid="class_d_a_l_1_1_ticket_factory_1a18688aa693ccbca117788f913a0d76e6" kind="function"><name>CreateTicket</name></member>
+  </compound>
+  <compound refid="class_d_a_l_1_1_ticket_management" kind="class"><name>DAL::TicketManagement</name>
+    <member refid="class_d_a_l_1_1_ticket_management_1a2e845c02ba14ce0b4bb540f9b4ddcb1d" kind="variable"><name>connectionString</name></member>
+    <member refid="class_d_a_l_1_1_ticket_management_1ac3787bdd4151a2c8c1f24740a0fb46c8" kind="function"><name>GetTicketsByUser</name></member>
+    <member refid="class_d_a_l_1_1_ticket_management_1a9f5064c8612a97c07179449daf671a84" kind="function"><name>InsertTicket</name></member>
+    <member refid="class_d_a_l_1_1_ticket_management_1a26e943ebee9ec47ada280a6f471651db" kind="function"><name>UpdateTicketResponse</name></member>
+    <member refid="class_d_a_l_1_1_ticket_management_1a332ee677725e391ced9cd048d930046e" kind="function"><name>UpdateTicketStatus</name></member>
+    <member refid="class_d_a_l_1_1_ticket_management_1a8c9fc5145d82ed8fd80d3c607dd03347" kind="function"><name>GetAllTickets</name></member>
+    <member refid="class_d_a_l_1_1_ticket_management_1a3bdf503744902b5739d8a2bbffc50e99" kind="function"><name>MapTicket</name></member>
+  </compound>
+  <compound refid="class_ticket_management_b_l_l" kind="class"><name>TicketManagementBLL</name>
+    <member refid="class_ticket_management_b_l_l_1a163895b1300acbad6aec368bbcd3351a" kind="variable"><name>_ticketManag</name></member>
+    <member refid="class_ticket_management_b_l_l_1ad231bc8ffcd5252bcad94f8e6fd3e6ee" kind="function"><name>RespondToTicket</name></member>
+    <member refid="class_ticket_management_b_l_l_1ac159b1a1f3df45b6e25736c1eb0c46d7" kind="function"><name>CloseTicket</name></member>
+    <member refid="class_ticket_management_b_l_l_1aa8c9366c8803f27682269216894b3bc1" kind="function"><name>GetAllTickets</name></member>
+  </compound>
+  <compound refid="class_tests_1_1_ticket_tests" kind="class"><name>Tests::TicketTests</name>
+    <member refid="class_tests_1_1_ticket_tests_1a0e0b5fe4fbea6ee56646122977bdcc93" kind="function"><name>HardwareTicket_GetSummary_ReturnsCorrectFormat</name></member>
+    <member refid="class_tests_1_1_ticket_tests_1a2580a485c8fbdaf673f0362a6273c293" kind="function"><name>SoftwareTicket_GetSummary_ReturnsCorrectFormat</name></member>
+    <member refid="class_tests_1_1_ticket_tests_1a90ea1dcd023f31ec7bac6630a48e7289" kind="function"><name>Ticket_Initialization_SetsCorrectValues</name></member>
+    <member refid="class_tests_1_1_ticket_tests_1ac8606e7582a08a0768ea91121ff8fa3e" kind="function"><name>SoftwareTicket_EmptyStrings_AreHandledGracefully</name></member>
+    <member refid="class_tests_1_1_ticket_tests_1a794ff84de267493ad9f730e7d053f4d4" kind="function"><name>HardwareTicket_NullProperties_ReturnsSummaryWithNulls</name></member>
+    <member refid="class_tests_1_1_ticket_tests_1a679fcf2851d298aaad4dd1dba6325139" kind="function"><name>SoftwareTicket_NullProperties_ReturnsSummaryWithNulls</name></member>
+    <member refid="class_tests_1_1_ticket_tests_1a3568f976ef71fabfbdc665bb8b908cc9" kind="function"><name>Ticket_CreatedAtInFuture_ThrowsException</name></member>
+    <member refid="class_tests_1_1_ticket_tests_1ac937a6a218f9fc0a8195e89947b17581" kind="function"><name>Ticket_InvalidStatus_ThrowsException</name></member>
+    <member refid="class_tests_1_1_ticket_tests_1a1f1fe1fe1998924e9cecc09c134306f1" kind="function"><name>Ticket_InvalidServiceStatus_ThrowsException</name></member>
+    <member refid="class_tests_1_1_ticket_tests_1a10ab17ed975ccdb52ba9338ee1a72b1a" kind="function"><name>Ticket_Summary_WithSpecialCharacters</name></member>
+    <member refid="class_tests_1_1_ticket_tests_1a02a065dc95bd3daea3212f697904312d" kind="function"><name>SoftwareTicket_LongDescription_ReturnsCorrectSummary</name></member>
+  </compound>
+  <compound refid="class_models_1_1_user" kind="class"><name>Models::User</name>
+    <member refid="class_models_1_1_user_1a293686fdd3d2e69414837bd7bcce6360" kind="property"><name>Username</name></member>
+    <member refid="class_models_1_1_user_1ad1765600b1d3a0752f3dec066a4b1c17" kind="property"><name>Role</name></member>
+  </compound>
+  <compound refid="class_p_a___w_p_f___d_b_1_1_user_dashboard" kind="class"><name>PA_WPF_DB::UserDashboard</name>
+    <member refid="class_p_a___w_p_f___d_b_1_1_user_dashboard_1ac3ad969cf49232bd54f5070fbaead8e9" kind="variable"><name>dgTickets</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_user_dashboard_1abeaede5548a6d6a912ec63d0ed69b2a3" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_user_dashboard_1ac837985782082fe9225f86b95dbc4daa" kind="variable"><name>_username</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_user_dashboard_1aaadfef7c97e4a0107e78b3090aba0605" kind="variable"><name>_ticketManager</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_user_dashboard_1a1f4ff60f11887f73366ec263531263ad" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_user_dashboard_1a1f4ff60f11887f73366ec263531263ad" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_user_dashboard_1a1f4ff60f11887f73366ec263531263ad" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_user_dashboard_1a9ba472e669598ea5c9efe24088b48458" kind="function"><name>UserDashboard</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_user_dashboard_1a03dd014c8477a6334b46a7d479ce144c" kind="function"><name>UserDashboard</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_user_dashboard_1ac1b57142f2cd8d82e3c20fa04e10afe5" kind="function"><name>Connect</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_user_dashboard_1ac1b57142f2cd8d82e3c20fa04e10afe5" kind="function"><name>Connect</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_user_dashboard_1ac1b57142f2cd8d82e3c20fa04e10afe5" kind="function"><name>Connect</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_user_dashboard_1a177489e99133899b451bf59382b4d914" kind="function"><name>LoadTickets</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_user_dashboard_1a598dc93ea6d8fd73b4d2173e15eecad0" kind="function"><name>RefreshTickets_Click</name></member>
+    <member refid="class_p_a___w_p_f___d_b_1_1_user_dashboard_1ab6d288b01442f881a234893f0d45c9cf" kind="function"><name>AddTicket_Click</name></member>
+  </compound>
+  <compound refid="class_d_a_l_1_1_user_management" kind="class"><name>DAL::UserManagement</name>
+    <member refid="class_d_a_l_1_1_user_management_1a8502974126325493f935f093df7341cc" kind="variable"><name>connectionString</name></member>
+    <member refid="class_d_a_l_1_1_user_management_1afcfedf6c852410a00b68a638a3e333a3" kind="function"><name>GetUser</name></member>
+  </compound>
+  <compound refid="class_b_l_l_1_1_user_service" kind="class"><name>BLL::UserService</name>
+    <member refid="class_b_l_l_1_1_user_service_1acbc5750607f4ccce844f2c0987bea0ec" kind="variable"><name>userManag</name></member>
+    <member refid="class_b_l_l_1_1_user_service_1aafa3cfa7e150533bb63b5fd2e31c78a9" kind="function"><name>ValidateLogin</name></member>
+  </compound>
+  <compound refid="namespace_b_l_l" kind="namespace"><name>BLL</name>
+  </compound>
+  <compound refid="namespace_d_a_l" kind="namespace"><name>DAL</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_visual_studio_1_1_test_tools_1_1_unit_testing" kind="namespace"><name>global::Microsoft::VisualStudio::TestTools::UnitTesting</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system" kind="namespace"><name>global::System</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_collections_1_1_generic" kind="namespace"><name>global::System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_i_o" kind="namespace"><name>global::System::IO</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_linq" kind="namespace"><name>global::System::Linq</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_net_1_1_http" kind="namespace"><name>global::System::Net::Http</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading" kind="namespace"><name>global::System::Threading</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading_1_1_tasks" kind="namespace"><name>global::System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_live_charts" kind="namespace"><name>LiveCharts</name>
+  </compound>
+  <compound refid="namespace_live_charts_1_1_wpf" kind="namespace"><name>LiveCharts::Wpf</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_mvc_1_1_model_binding" kind="namespace"><name>Microsoft::AspNetCore::Mvc::ModelBinding</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_visual_studio_1_1_test_tools_1_1_unit_testing" kind="namespace"><name>Microsoft::VisualStudio::TestTools::UnitTesting</name>
+  </compound>
+  <compound refid="namespace_models" kind="namespace"><name>Models</name>
+  </compound>
+  <compound refid="namespace_p_a___w_p_f___d_b" kind="namespace"><name>PA_WPF_DB</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_configuration" kind="namespace"><name>System::Configuration</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_sql_client" kind="namespace"><name>System::Data::SqlClient</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net_1_1_sockets" kind="namespace"><name>System::Net::Sockets</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows" kind="namespace"><name>System::Windows</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_automation" kind="namespace"><name>System::Windows::Automation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls" kind="namespace"><name>System::Windows::Controls</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls_1_1_primitives" kind="namespace"><name>System::Windows::Controls::Primitives</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls_1_1_ribbon" kind="namespace"><name>System::Windows::Controls::Ribbon</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_data" kind="namespace"><name>System::Windows::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_documents" kind="namespace"><name>System::Windows::Documents</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_ink" kind="namespace"><name>System::Windows::Ink</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_input" kind="namespace"><name>System::Windows::Input</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_markup" kind="namespace"><name>System::Windows::Markup</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media" kind="namespace"><name>System::Windows::Media</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_animation" kind="namespace"><name>System::Windows::Media::Animation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_effects" kind="namespace"><name>System::Windows::Media::Effects</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_imaging" kind="namespace"><name>System::Windows::Media::Imaging</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_media3_d" kind="namespace"><name>System::Windows::Media::Media3D</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_text_formatting" kind="namespace"><name>System::Windows::Media::TextFormatting</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_navigation" kind="namespace"><name>System::Windows::Navigation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shapes" kind="namespace"><name>System::Windows::Shapes</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shell" kind="namespace"><name>System::Windows::Shell</name>
+  </compound>
+  <compound refid="namespace_system_1_1_xml_1_1_linq" kind="namespace"><name>System::Xml::Linq</name>
+  </compound>
+  <compound refid="namespace_tests" kind="namespace"><name>Tests</name>
+  </compound>
+  <compound refid="_dashboard_statistics_service_8cs" kind="file"><name>DashboardStatisticsService.cs</name>
+  </compound>
+  <compound refid="_b_l_l_2obj_2_debug_2net8_80_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_b_l_l_2obj_2_release_2net8_80_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_d_a_l_2obj_2_debug_2net8_80_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_d_a_l_2obj_2_release_2net8_80_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_models_2obj_2_debug_2net8_80_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_models_2obj_2_release_2net8_80_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b_2obj_2_debug_2net8_80-windows_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b_2obj_2_release_2net8_80-windows_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_ticket_tests_2obj_2_debug_2net8_80_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_debug_2net8_80_2_b_l_l_8_assembly_info_8cs" kind="file"><name>BLL.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_release_2net8_80_2_b_l_l_8_assembly_info_8cs" kind="file"><name>BLL.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_debug_2net8_80_2_b_l_l_8_global_usings_8g_8cs" kind="file"><name>BLL.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_release_2net8_80_2_b_l_l_8_global_usings_8g_8cs" kind="file"><name>BLL.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_ticket_management_b_l_l_8cs" kind="file"><name>TicketManagementBLL.cs</name>
+  </compound>
+  <compound refid="_user_service_8cs" kind="file"><name>UserService.cs</name>
+  </compound>
+  <compound refid="_debug_2net8_80_2_d_a_l_8_assembly_info_8cs" kind="file"><name>DAL.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_release_2net8_80_2_d_a_l_8_assembly_info_8cs" kind="file"><name>DAL.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_debug_2net8_80_2_d_a_l_8_global_usings_8g_8cs" kind="file"><name>DAL.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_release_2net8_80_2_d_a_l_8_global_usings_8g_8cs" kind="file"><name>DAL.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_ticket_management_8cs" kind="file"><name>TicketManagement.cs</name>
+  </compound>
+  <compound refid="_user_management_8cs" kind="file"><name>UserManagement.cs</name>
+  </compound>
+  <compound refid="_debug_2net8_80_2_models_8_assembly_info_8cs" kind="file"><name>Models.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_release_2net8_80_2_models_8_assembly_info_8cs" kind="file"><name>Models.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_debug_2net8_80_2_models_8_global_usings_8g_8cs" kind="file"><name>Models.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_release_2net8_80_2_models_8_global_usings_8g_8cs" kind="file"><name>Models.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_ticket_8cs" kind="file"><name>Ticket.cs</name>
+  </compound>
+  <compound refid="_user_8cs" kind="file"><name>User.cs</name>
+  </compound>
+  <compound refid="_app_8xaml_8cs" kind="file"><name>App.xaml.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_dashboard_window_8xaml_8cs" kind="file"><name>DashboardWindow.xaml.cs</name>
+  </compound>
+  <compound refid="_main_window_8xaml_8cs" kind="file"><name>MainWindow.xaml.cs</name>
+  </compound>
+  <compound refid="_new_ticket_8xaml_8cs" kind="file"><name>NewTicket.xaml.cs</name>
+  </compound>
+  <compound refid="_debug_2net8_80-windows_2_app_8g_8cs" kind="file"><name>App.g.cs</name>
+  </compound>
+  <compound refid="_release_2net8_80-windows_2_app_8g_8cs" kind="file"><name>App.g.cs</name>
+  </compound>
+  <compound refid="_app_8g_8i_8cs" kind="file"><name>App.g.i.cs</name>
+  </compound>
+  <compound refid="_dashboard_window_8g_8cs" kind="file"><name>DashboardWindow.g.cs</name>
+  </compound>
+  <compound refid="_dashboard_window_8g_8i_8cs" kind="file"><name>DashboardWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_debug_2net8_80-windows_2_main_window_8g_8cs" kind="file"><name>MainWindow.g.cs</name>
+  </compound>
+  <compound refid="_release_2net8_80-windows_2_main_window_8g_8cs" kind="file"><name>MainWindow.g.cs</name>
+  </compound>
+  <compound refid="_main_window_8g_8i_8cs" kind="file"><name>MainWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_debug_2net8_80-windows_2_new_ticket_8g_8cs" kind="file"><name>NewTicket.g.cs</name>
+  </compound>
+  <compound refid="_release_2net8_80-windows_2_new_ticket_8g_8cs" kind="file"><name>NewTicket.g.cs</name>
+  </compound>
+  <compound refid="_new_ticket_8g_8i_8cs" kind="file"><name>NewTicket.g.i.cs</name>
+  </compound>
+  <compound refid="_debug_2net8_80-windows_2_p_a-_w_p_f-_d_b_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_release_2net8_80-windows_2_p_a-_w_p_f-_d_b_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_debug_2net8_80-windows_2_p_a-_w_p_f-_d_b_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_release_2net8_80-windows_2_p_a-_w_p_f-_d_b_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__00ce0vl1__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_00ce0vl1_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__00ce0vl1__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_00ce0vl1_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__0ywrsdqo__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_0ywrsdqo_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__0ywrsdqo__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_0ywrsdqo_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__1vvz55u1__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_1vvz55u1_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__1vvz55u1__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_1vvz55u1_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__22bh5jim__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_22bh5jim_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__22bh5jim__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_22bh5jim_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__2myaeq21__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_2myaeq21_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__2myaeq21__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_2myaeq21_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__3i10vkw1__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_3i10vkw1_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__3i10vkw1__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_3i10vkw1_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__3qp413to__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_3qp413to_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__3qp413to__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_3qp413to_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__ae1ttu1k__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_ae1ttu1k_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__ae1ttu1k__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_ae1ttu1k_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__air4bm4u__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_air4bm4u_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__air4bm4u__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_air4bm4u_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__axgjvu0y__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_axgjvu0y_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__axgjvu0y__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_axgjvu0y_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__b3pf01ur__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_b3pf01ur_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__b3pf01ur__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_b3pf01ur_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__c5fnt1tj__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_c5fnt1tj_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__c5fnt1tj__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_c5fnt1tj_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__cqlai5wp__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_cqlai5wp_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__cqlai5wp__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_cqlai5wp_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__evkofokv__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_evkofokv_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__evkofokv__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_evkofokv_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__fiwiuggy__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_fiwiuggy_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__fiwiuggy__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_fiwiuggy_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__focsitda__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_focsitda_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__focsitda__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_focsitda_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__hc2yweab__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_hc2yweab_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__hc2yweab__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_hc2yweab_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__hf2igp0c__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_hf2igp0c_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__hf2igp0c__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_hf2igp0c_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__ipmosjto__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_ipmosjto_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__ipmosjto__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_ipmosjto_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__klq2ztpm__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_klq2ztpm_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__klq2ztpm__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_klq2ztpm_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__l3ajflay__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_l3ajflay_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__l3ajflay__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_l3ajflay_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__lq4wthut__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_lq4wthut_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__lq4wthut__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_lq4wthut_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__lwpzm3fl__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_lwpzm3fl_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__lwpzm3fl__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_lwpzm3fl_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__ngt3j121__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_ngt3j121_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__ngt3j121__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_ngt3j121_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__oihitrnd__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_oihitrnd_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__oihitrnd__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_oihitrnd_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__p2cvufdn__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_p2cvufdn_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__p2cvufdn__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_p2cvufdn_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__pdlx4leh__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_pdlx4leh_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__pdlx4leh__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_pdlx4leh_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__pfh0qwdc__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_pfh0qwdc_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__pfh0qwdc__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_pfh0qwdc_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__pqtxnwzg__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_pqtxnwzg_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__pqtxnwzg__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_pqtxnwzg_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__q5052koq__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_q5052koq_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__q5052koq__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_q5052koq_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__qhwn1qa1__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_qhwn1qa1_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__qhwn1qa1__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_qhwn1qa1_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__qrsuzovp__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_qrsuzovp_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__qrsuzovp__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_qrsuzovp_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__qt432yas__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_qt432yas_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__qt432yas__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_qt432yas_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__tpljaoot__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_tpljaoot_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__tpljaoot__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_tpljaoot_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__tst12shb__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_tst12shb_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__tst12shb__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_tst12shb_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__tuzj5cjf__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_tuzj5cjf_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__tuzj5cjf__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_tuzj5cjf_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__wfwxed3i__wpftmp_8_assembly_info_8cs" kind="file"><name>PA-WPF-DB_wfwxed3i_wpftmp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_p_a-_w_p_f-_d_b__wfwxed3i__wpftmp_8_global_usings_8g_8cs" kind="file"><name>PA-WPF-DB_wfwxed3i_wpftmp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_technician_dashboard_8g_8cs" kind="file"><name>TechnicianDashboard.g.cs</name>
+  </compound>
+  <compound refid="_technician_dashboard_8g_8i_8cs" kind="file"><name>TechnicianDashboard.g.i.cs</name>
+  </compound>
+  <compound refid="_debug_2net8_80-windows_2_technician_response_window_8g_8cs" kind="file"><name>TechnicianResponseWindow.g.cs</name>
+  </compound>
+  <compound refid="_release_2net8_80-windows_2_technician_response_window_8g_8cs" kind="file"><name>TechnicianResponseWindow.g.cs</name>
+  </compound>
+  <compound refid="_technician_response_window_8g_8i_8cs" kind="file"><name>TechnicianResponseWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_debug_2net8_80-windows_2_user_dashboard_8g_8cs" kind="file"><name>UserDashboard.g.cs</name>
+  </compound>
+  <compound refid="_release_2net8_80-windows_2_user_dashboard_8g_8cs" kind="file"><name>UserDashboard.g.cs</name>
+  </compound>
+  <compound refid="_user_dashboard_8g_8i_8cs" kind="file"><name>UserDashboard.g.i.cs</name>
+  </compound>
+  <compound refid="_technician_dashboard_8xaml_8cs" kind="file"><name>TechnicianDashboard.xaml.cs</name>
+  </compound>
+  <compound refid="_technician_response_window_8xaml_8cs" kind="file"><name>TechnicianResponseWindow.xaml.cs</name>
+  </compound>
+  <compound refid="_user_dashboard_8xaml_8cs" kind="file"><name>UserDashboard.xaml.cs</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_m_s_test_settings_8cs" kind="file"><name>MSTestSettings.cs</name>
+  </compound>
+  <compound refid="_ticket_tests_8_assembly_info_8cs" kind="file"><name>TicketTests.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_ticket_tests_8_global_usings_8g_8cs" kind="file"><name>TicketTests.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_ticket_tests_8cs" kind="file"><name>TicketTests.cs</name>
+  </compound>
+  <compound refid="dir_8da4ae129e401f5ee51ba55c1b10fa35" kind="dir"><name>C:/Final_Project_Advance_Programming/BLL</name>
+  </compound>
+  <compound refid="dir_397a79e21cd43960e77d51849d2a5276" kind="dir"><name>C:/Final_Project_Advance_Programming/DAL</name>
+  </compound>
+  <compound refid="dir_33b5305af2ac13f069ecc2b2562eecb9" kind="dir"><name>C:/Final_Project_Advance_Programming/BLL/obj/Debug</name>
+  </compound>
+  <compound refid="dir_e47c7d541c4eaf84b87851cca80b3025" kind="dir"><name>C:/Final_Project_Advance_Programming/DAL/obj/Debug</name>
+  </compound>
+  <compound refid="dir_a90bc2561ea4e50c5353e5263d3cb32f" kind="dir"><name>C:/Final_Project_Advance_Programming/Models/obj/Debug</name>
+  </compound>
+  <compound refid="dir_3acb60cd13e79f8dc2b6874d7e12a7ad" kind="dir"><name>C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug</name>
+  </compound>
+  <compound refid="dir_69670a7b8c52f0b5529d080530fab338" kind="dir"><name>C:/Final_Project_Advance_Programming/TicketTests/obj/Debug</name>
+  </compound>
+  <compound refid="dir_4ef0d41fe7bc5b98863a6ba31c2fc3a1" kind="dir"><name>C:/Final_Project_Advance_Programming</name>
+  </compound>
+  <compound refid="dir_0e851717881e3a1cf8726ab0c446761c" kind="dir"><name>C:/Final_Project_Advance_Programming/Models</name>
+  </compound>
+  <compound refid="dir_50d4fa102ecb9824c85f039389ff390e" kind="dir"><name>C:/Final_Project_Advance_Programming/BLL/obj/Debug/net8.0</name>
+  </compound>
+  <compound refid="dir_49a7204403ea9c6bcf10cc36b7925370" kind="dir"><name>C:/Final_Project_Advance_Programming/BLL/obj/Release/net8.0</name>
+  </compound>
+  <compound refid="dir_6ed250e188171c2d3deb555c7355105e" kind="dir"><name>C:/Final_Project_Advance_Programming/DAL/obj/Debug/net8.0</name>
+  </compound>
+  <compound refid="dir_c0d51e4c397cdc3a5d30648630f727c3" kind="dir"><name>C:/Final_Project_Advance_Programming/DAL/obj/Release/net8.0</name>
+  </compound>
+  <compound refid="dir_a61709d3c20edd9023fe792b5137b539" kind="dir"><name>C:/Final_Project_Advance_Programming/Models/obj/Debug/net8.0</name>
+  </compound>
+  <compound refid="dir_9952bb6e98fe38a55882615150c182c8" kind="dir"><name>C:/Final_Project_Advance_Programming/Models/obj/Release/net8.0</name>
+  </compound>
+  <compound refid="dir_47ab234d69358dbcb8456f7c3a297907" kind="dir"><name>C:/Final_Project_Advance_Programming/TicketTests/obj/Debug/net8.0</name>
+  </compound>
+  <compound refid="dir_5dec9dc30fffaed1c569065aea9a2169" kind="dir"><name>C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows</name>
+  </compound>
+  <compound refid="dir_47a1872d75f88ce531af5cb268170e8c" kind="dir"><name>C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Release/net8.0-windows</name>
+  </compound>
+  <compound refid="dir_9cb9418d850a3d2c05dc4b72f10b5b79" kind="dir"><name>C:/Final_Project_Advance_Programming/BLL/obj</name>
+  </compound>
+  <compound refid="dir_032af1e4730a9a518c1b9024771c2ee3" kind="dir"><name>C:/Final_Project_Advance_Programming/DAL/obj</name>
+  </compound>
+  <compound refid="dir_8518e0344b5660ea0db8315f60b3c6cc" kind="dir"><name>C:/Final_Project_Advance_Programming/Models/obj</name>
+  </compound>
+  <compound refid="dir_b7889e83586b0be6dfce34876cdff7f8" kind="dir"><name>C:/Final_Project_Advance_Programming/PA-WPF-DB/obj</name>
+  </compound>
+  <compound refid="dir_bf10a85cb61ee0b098e4f77c98e2179e" kind="dir"><name>C:/Final_Project_Advance_Programming/TicketTests/obj</name>
+  </compound>
+  <compound refid="dir_5597bcfb7f9c4a20f272b60314b52caf" kind="dir"><name>C:/Final_Project_Advance_Programming/PA-WPF-DB</name>
+  </compound>
+  <compound refid="dir_919d45aa1d8c4e6df3bcce9e83e36380" kind="dir"><name>C:/Final_Project_Advance_Programming/BLL/obj/Release</name>
+  </compound>
+  <compound refid="dir_af5b055ac7906edf26866a8271ff8dfc" kind="dir"><name>C:/Final_Project_Advance_Programming/DAL/obj/Release</name>
+  </compound>
+  <compound refid="dir_4b0cf5d12c0267c1a57166ef6ba36089" kind="dir"><name>C:/Final_Project_Advance_Programming/Models/obj/Release</name>
+  </compound>
+  <compound refid="dir_b51e47fef590bc22012be1cb5aee7a85" kind="dir"><name>C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Release</name>
+  </compound>
+  <compound refid="dir_8ab19efa5c441ef97f2b429ec7654db7" kind="dir"><name>C:/Final_Project_Advance_Programming/TicketTests</name>
+  </compound>
+</doxygenindex>

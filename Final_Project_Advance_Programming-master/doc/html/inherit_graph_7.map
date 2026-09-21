@@ -1,0 +1,24 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,157,249,200"/>
+<area shape="rect" id="Node000001" href="$class_p_a___w_p_f___d_b_1_1_dashboard_window.html" title="Interaction logic for DashboardWindow.xaml." alt="" coords="305,5,518,32"/>
+<area shape="poly" id="edge5_Node000000_Node000001" title=" " alt="" coords="243,146,247,143,258,132,264,119,270,94,276,68,283,54,295,42,314,30,317,35,298,46,287,58,281,69,275,95,269,121,262,135,250,147,246,151"/>
+<area shape="rect" id="Node000003" href="$class_p_a___w_p_f___d_b_1_1_main_window.html" title="MainWindow." alt="" coords="322,275,501,301"/>
+<area shape="poly" id="edge6_Node000000_Node000003" title=" " alt="" coords="180,205,236,234,298,260,336,272,335,277,296,265,233,239,177,210"/>
+<area shape="rect" id="Node000004" href="$class_p_a___w_p_f___d_b_1_1_new_ticket_window.html" title="Lógica de interacción para NewTicket.xaml." alt="" coords="306,56,517,83"/>
+<area shape="poly" id="edge7_Node000000_Node000004" title=" " alt="" coords="238,148,247,143,262,131,270,118,280,105,295,92,322,81,324,86,298,97,283,109,275,121,266,135,250,148,240,153"/>
+<area shape="rect" id="Node000005" href="$class_p_a___w_p_f___d_b_1_1_technician_dashboard.html" title="TechnicianDashboard." alt="" coords="297,107,526,133"/>
+<area shape="poly" id="edge8_Node000000_Node000005" title=" " alt="" coords="248,151,342,131,343,137,249,156"/>
+<area shape="rect" id="Node000006" href="$class_p_a___w_p_f___d_b_1_1_technician_response_window.html" title="TechnicianResponseWindow." alt="" coords="299,157,524,200"/>
+<area shape="poly" id="edge9_Node000000_Node000006" title=" " alt="" coords="264,176,298,176,298,181,264,181"/>
+<area shape="rect" id="Node000007" href="$class_p_a___w_p_f___d_b_1_1_user_dashboard.html" title="UserDashboard." alt="" coords="314,224,509,251"/>
+<area shape="poly" id="edge10_Node000000_Node000007" title=" " alt="" coords="249,201,343,221,342,226,248,206"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="40,107,214,133"/>
+<area shape="poly" id="edge11_Node000002_Node000001" title=" " alt="" coords="167,97,227,69,296,41,337,30,338,35,298,47,229,74,169,102"/>
+<area shape="poly" id="edge12_Node000002_Node000003" title=" " alt="" coords="229,130,250,143,264,158,271,173,275,204,280,233,286,247,298,261,323,275,320,279,295,265,282,250,275,235,270,204,266,175,259,161,247,147,226,135"/>
+<area shape="poly" id="edge13_Node000002_Node000004" title=" " alt="" coords="220,101,332,81,333,86,221,106"/>
+<area shape="poly" id="edge14_Node000002_Node000005" title=" " alt="" coords="229,117,296,117,296,123,229,123"/>
+<area shape="poly" id="edge15_Node000002_Node000006" title=" " alt="" coords="211,134,305,154,304,159,210,140"/>
+<area shape="poly" id="edge16_Node000002_Node000007" title=" " alt="" coords="230,132,250,143,267,160,275,177,283,194,298,210,320,221,318,226,295,214,278,197,270,180,263,163,247,147,227,137"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="93,5,161,32"/>
+<area shape="poly" id="edge17_Node000008_Node000001" title=" " alt="" coords="176,16,304,16,304,21,176,21"/>
+</map>

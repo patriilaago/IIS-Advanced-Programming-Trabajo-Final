@@ -1,0 +1,5 @@
+<map id="Tests.TicketTests.HardwareTicket_NullProperties_ReturnsSummaryWithNulls" name="Tests.TicketTests.HardwareTicket_NullProperties_ReturnsSummaryWithNulls">
+<area shape="rect" id="Node000001" title="Tests that null values in a hardware ticket do not cause errors in GetSummary()." alt="" coords="5,5,258,64"/>
+<area shape="rect" id="Node000002" href="$class_models_1_1_hardware_ticket.html#a1a1dd72af7ae94c977b56ee1c6dd5d94" title="Gets a summary of the hardware ticket." alt="" coords="306,13,487,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="258,32,290,32,290,37,258,37"/>
+</map>

@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_p_a___w_p_f___d_b_1_1_dashboard_window" kind="class" language="C#" prot="public">
+    <compoundname>PA_WPF_DB::DashboardWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_p_a___w_p_f___d_b_1_1_dashboard_window_1aeb7afe34b2a0bb0ac5d8a958a35fb19e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_b_l_l_1_1_dashboard_statistics_service" kindref="compound">DashboardStatisticsService</ref></type>
+        <definition>DashboardStatisticsService PA_WPF_DB.DashboardWindow.statisticsService</definition>
+        <argsstring></argsstring>
+        <name>statisticsService</name>
+        <qualifiedname>PA_WPF_DB.DashboardWindow.statisticsService</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" line="17" column="44" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_p_a___w_p_f___d_b_1_1_dashboard_window_1aae810f71f76d535df30f018e673679b7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PA_WPF_DB.DashboardWindow::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <qualifiedname>PA_WPF_DB.DashboardWindow._contentLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/DashboardWindow.g.cs" line="60" column="22" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/DashboardWindow.g.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_p_a___w_p_f___d_b_1_1_dashboard_window_1aff891474a28fdb0d14410086ba785343" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>SeriesCollection</type>
+        <definition>SeriesCollection PA_WPF_DB.DashboardWindow.ServiceStatusSeries</definition>
+        <argsstring></argsstring>
+        <name>ServiceStatusSeries</name>
+        <qualifiedname>PA_WPF_DB.DashboardWindow.ServiceStatusSeries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" line="20" column="33" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_p_a___w_p_f___d_b_1_1_dashboard_window_1ac0668611a1a9f267e0efc1aa21a89d51" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>SeriesCollection</type>
+        <definition>SeriesCollection PA_WPF_DB.DashboardWindow.AverageTimeSeries</definition>
+        <argsstring></argsstring>
+        <name>AverageTimeSeries</name>
+        <qualifiedname>PA_WPF_DB.DashboardWindow.AverageTimeSeries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" line="21" column="33" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a58afb729f6a43e7020f2641d4eb5d413" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string[]</type>
+        <definition>string [] PA_WPF_DB.DashboardWindow.TimeLabels</definition>
+        <argsstring></argsstring>
+        <name>TimeLabels</name>
+        <qualifiedname>PA_WPF_DB.DashboardWindow.TimeLabels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" line="22" column="23" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a150c8b5006d90be8a389ded4ccb0b84a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string PA_WPF_DB.DashboardWindow.FulfilledPercentageText</definition>
+        <argsstring></argsstring>
+        <name>FulfilledPercentageText</name>
+        <qualifiedname>PA_WPF_DB.DashboardWindow.FulfilledPercentageText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" line="23" column="23" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a2611f68c7e2ac172f728ddb9084860e8" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.DatePicker</type>
+        <definition>System Windows Controls DatePicker PA_WPF_DB.DashboardWindow::StartDatePicker</definition>
+        <argsstring></argsstring>
+        <name>StartDatePicker</name>
+        <qualifiedname>PA_WPF_DB.DashboardWindow.StartDatePicker</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/DashboardWindow.g.cs" line="47" column="50" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/DashboardWindow.g.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_p_a___w_p_f___d_b_1_1_dashboard_window_1ac02b9abd990742c04ccde5a866ef4ece" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.DatePicker</type>
+        <definition>System Windows Controls DatePicker PA_WPF_DB.DashboardWindow::EndDatePicker</definition>
+        <argsstring></argsstring>
+        <name>EndDatePicker</name>
+        <qualifiedname>PA_WPF_DB.DashboardWindow.EndDatePicker</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/DashboardWindow.g.cs" line="55" column="50" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/DashboardWindow.g.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a609c5939a7c1a2cbd0479f81b21ee9d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PA_WPF_DB.DashboardWindow.DashboardWindow</definition>
+        <argsstring>()</argsstring>
+        <name>DashboardWindow</name>
+        <qualifiedname>PA_WPF_DB.DashboardWindow.DashboardWindow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" line="25" column="16" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" bodystart="25" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a7aaab4b791a6f596ef3a6ca59631d316" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PA_WPF_DB.DashboardWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>PA_WPF_DB.DashboardWindow.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/DashboardWindow.g.cs" line="67" column="21" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/DashboardWindow.g.cs" bodystart="67" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a7aaab4b791a6f596ef3a6ca59631d316" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PA_WPF_DB.DashboardWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>PA_WPF_DB.DashboardWindow.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/DashboardWindow.g.i.cs" line="67" column="21" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/DashboardWindow.g.i.cs" bodystart="67" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a0a255ed84e5366d044ca26ad9f613df0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PA_WPF_DB.DashboardWindow.LoadDashboardData</definition>
+        <argsstring>()</argsstring>
+        <name>LoadDashboardData</name>
+        <qualifiedname>PA_WPF_DB.DashboardWindow.LoadDashboardData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" line="38" column="22" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" bodystart="38" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_dashboard_window_1acf4b0a8eea225382f7589667ac134ce2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PA_WPF_DB.DashboardWindow.Refresh_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Refresh_Click</name>
+        <qualifiedname>PA_WPF_DB.DashboardWindow.Refresh_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" line="85" column="22" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_dashboard_window_1afffe935c17abc791f8a7418031e0776b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PA_WPF_DB.DashboardWindow.BackToTickets_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>BackToTickets_Click</name>
+        <qualifiedname>PA_WPF_DB.DashboardWindow.BackToTickets_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Handles the back button click to return to the technician dashboard. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" line="93" column="22" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_dashboard_window_1ac1a3f838c0ca542b8eec0bf9ee835223" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. PA_WPF_DB.DashboardWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>PA_WPF_DB.DashboardWindow.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/DashboardWindow.g.cs" line="87" column="52" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/DashboardWindow.g.cs" bodystart="87" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_dashboard_window_1ac1a3f838c0ca542b8eec0bf9ee835223" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. PA_WPF_DB.DashboardWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>PA_WPF_DB.DashboardWindow.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/DashboardWindow.g.i.cs" line="87" column="52" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/DashboardWindow.g.i.cs" bodystart="87" bodyend="114"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Interaction logic for DashboardWindow.xaml. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_p_a___w_p_f___d_b_1_1_dashboard_window" kindref="compound">DashboardWindow</ref>. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>PA_WPF_DB.DashboardWindow</label>
+        <link refid="class_p_a___w_p_f___d_b_1_1_dashboard_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="2">
+        <label>Window</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PA_WPF_DB.DashboardWindow</label>
+        <link refid="class_p_a___w_p_f___d_b_1_1_dashboard_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="2">
+        <label>Window</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" line="15" column="19" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/DashboardWindow.xaml.cs" bodystart="16" bodyend="97"/>
+    <listofallmembers>
+      <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1aae810f71f76d535df30f018e673679b7" prot="private" virt="non-virtual"><scope>PA_WPF_DB::DashboardWindow</scope><name>_contentLoaded</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1ac0668611a1a9f267e0efc1aa21a89d51" prot="public" virt="non-virtual"><scope>PA_WPF_DB::DashboardWindow</scope><name>AverageTimeSeries</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1afffe935c17abc791f8a7418031e0776b" prot="private" virt="non-virtual"><scope>PA_WPF_DB::DashboardWindow</scope><name>BackToTickets_Click</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1ac1a3f838c0ca542b8eec0bf9ee835223" prot="private" virt="non-virtual"><scope>PA_WPF_DB::DashboardWindow</scope><name>Connect</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1ac1a3f838c0ca542b8eec0bf9ee835223" prot="private" virt="non-virtual"><scope>PA_WPF_DB::DashboardWindow</scope><name>Connect</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a609c5939a7c1a2cbd0479f81b21ee9d9" prot="public" virt="non-virtual"><scope>PA_WPF_DB::DashboardWindow</scope><name>DashboardWindow</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1ac02b9abd990742c04ccde5a866ef4ece" prot="package" virt="non-virtual"><scope>PA_WPF_DB::DashboardWindow</scope><name>EndDatePicker</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a150c8b5006d90be8a389ded4ccb0b84a" prot="public" virt="non-virtual"><scope>PA_WPF_DB::DashboardWindow</scope><name>FulfilledPercentageText</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a7aaab4b791a6f596ef3a6ca59631d316" prot="public" virt="non-virtual"><scope>PA_WPF_DB::DashboardWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a7aaab4b791a6f596ef3a6ca59631d316" prot="public" virt="non-virtual"><scope>PA_WPF_DB::DashboardWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a0a255ed84e5366d044ca26ad9f613df0" prot="private" virt="non-virtual"><scope>PA_WPF_DB::DashboardWindow</scope><name>LoadDashboardData</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1acf4b0a8eea225382f7589667ac134ce2" prot="private" virt="non-virtual"><scope>PA_WPF_DB::DashboardWindow</scope><name>Refresh_Click</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1aff891474a28fdb0d14410086ba785343" prot="public" virt="non-virtual"><scope>PA_WPF_DB::DashboardWindow</scope><name>ServiceStatusSeries</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a2611f68c7e2ac172f728ddb9084860e8" prot="package" virt="non-virtual"><scope>PA_WPF_DB::DashboardWindow</scope><name>StartDatePicker</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1aeb7afe34b2a0bb0ac5d8a958a35fb19e" prot="private" virt="non-virtual"><scope>PA_WPF_DB::DashboardWindow</scope><name>statisticsService</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_dashboard_window_1a58afb729f6a43e7020f2641d4eb5d413" prot="public" virt="non-virtual"><scope>PA_WPF_DB::DashboardWindow</scope><name>TimeLabels</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

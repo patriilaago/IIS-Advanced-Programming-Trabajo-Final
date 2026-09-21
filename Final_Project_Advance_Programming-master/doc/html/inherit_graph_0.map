@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="58,5,144,32"/>
+<area shape="rect" id="Node000001" href="$class_p_a___w_p_f___d_b_1_1_app.html" title="Interaction logic for App.xaml." alt="" coords="245,31,373,57"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="159,23,245,34,244,39,158,28"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,56,197,83"/>
+<area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="212,53,244,49,245,54,212,58"/>
+</map>

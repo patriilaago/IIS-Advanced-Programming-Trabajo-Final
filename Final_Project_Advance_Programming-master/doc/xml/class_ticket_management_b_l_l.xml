@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_ticket_management_b_l_l" kind="class" language="C#" prot="public">
+    <compoundname>TicketManagementBLL</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ticket_management_b_l_l_1a163895b1300acbad6aec368bbcd3351a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_d_a_l_1_1_ticket_management" kindref="compound">TicketManagement</ref></type>
+        <definition>TicketManagement TicketManagementBLL._ticketManag</definition>
+        <argsstring></argsstring>
+        <name>_ticketManag</name>
+        <qualifiedname>TicketManagementBLL._ticketManag</qualifiedname>
+        <initializer>= new <ref refid="class_d_a_l_1_1_ticket_management" kindref="compound">TicketManagement</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/BLL/TicketManagementBLL.cs" line="11" column="30" bodyfile="C:/Final_Project_Advance_Programming/BLL/TicketManagementBLL.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ticket_management_b_l_l_1ad231bc8ffcd5252bcad94f8e6fd3e6ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TicketManagementBLL.RespondToTicket</definition>
+        <argsstring>(int ticketId, string response)</argsstring>
+        <name>RespondToTicket</name>
+        <qualifiedname>TicketManagementBLL.RespondToTicket</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ticketId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>response</declname>
+        </param>
+        <briefdescription>
+<para>Constructor for <ref refid="class_ticket_management_b_l_l" kindref="compound">TicketManagementBLL</ref> that initializes the ticket repository. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ticketId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Id of the ticket to response</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>response</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Response for the ticket</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns true if ticket have response and false in the other case</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/BLL/TicketManagementBLL.cs" line="21" column="17" bodyfile="C:/Final_Project_Advance_Programming/BLL/TicketManagementBLL.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ticket_management_b_l_l_1ac159b1a1f3df45b6e25736c1eb0c46d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TicketManagementBLL.CloseTicket</definition>
+        <argsstring>(int ticketId)</argsstring>
+        <name>CloseTicket</name>
+        <qualifiedname>TicketManagementBLL.CloseTicket</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ticketId</declname>
+        </param>
+        <briefdescription>
+<para>Closes a ticket by updating its status to &quot;Closed&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ticketId</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns true if ticket can stay close and false in the other case</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/BLL/TicketManagementBLL.cs" line="31" column="17" bodyfile="C:/Final_Project_Advance_Programming/BLL/TicketManagementBLL.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ticket_management_b_l_l_1aa8c9366c8803f27682269216894b3bc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_models_1_1_ticket" kindref="compound">Ticket</ref> &gt;</type>
+        <definition>List&lt; Ticket &gt; TicketManagementBLL.GetAllTickets</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllTickets</name>
+        <qualifiedname>TicketManagementBLL.GetAllTickets</qualifiedname>
+        <briefdescription>
+<para>Retrieves all tickets from the database. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A list with all the tickets</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/BLL/TicketManagementBLL.cs" line="40" column="17" bodyfile="C:/Final_Project_Advance_Programming/BLL/TicketManagementBLL.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for managing ticket responses and statuses in the system. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Final_Project_Advance_Programming/BLL/TicketManagementBLL.cs" line="9" column="7" bodyfile="C:/Final_Project_Advance_Programming/BLL/TicketManagementBLL.cs" bodystart="10" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_ticket_management_b_l_l_1a163895b1300acbad6aec368bbcd3351a" prot="private" virt="non-virtual"><scope>TicketManagementBLL</scope><name>_ticketManag</name></member>
+      <member refid="class_ticket_management_b_l_l_1ac159b1a1f3df45b6e25736c1eb0c46d7" prot="public" virt="non-virtual"><scope>TicketManagementBLL</scope><name>CloseTicket</name></member>
+      <member refid="class_ticket_management_b_l_l_1aa8c9366c8803f27682269216894b3bc1" prot="public" virt="non-virtual"><scope>TicketManagementBLL</scope><name>GetAllTickets</name></member>
+      <member refid="class_ticket_management_b_l_l_1ad231bc8ffcd5252bcad94f8e6fd3e6ee" prot="public" virt="non-virtual"><scope>TicketManagementBLL</scope><name>RespondToTicket</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

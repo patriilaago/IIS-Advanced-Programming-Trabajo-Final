@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="namespace_models" kind="namespace" language="C#">
+    <compoundname>Models</compoundname>
+    <innerclass refid="class_models_1_1_hardware_ticket" prot="public">Models::HardwareTicket</innerclass>
+    <innerclass refid="class_models_1_1_software_ticket" prot="public">Models::SoftwareTicket</innerclass>
+    <innerclass refid="class_models_1_1_ticket" prot="public">Models::Ticket</innerclass>
+    <innerclass refid="class_models_1_1_user" prot="public">Models::User</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Final_Project_Advance_Programming/Models/Ticket.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

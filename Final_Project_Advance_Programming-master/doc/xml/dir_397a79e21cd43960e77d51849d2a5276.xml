@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_397a79e21cd43960e77d51849d2a5276" kind="dir">
+    <compoundname>C:/Final_Project_Advance_Programming/DAL</compoundname>
+    <innerdir refid="dir_032af1e4730a9a518c1b9024771c2ee3">C:/Final_Project_Advance_Programming/DAL/obj</innerdir>
+    <innerfile refid="_ticket_management_8cs">TicketManagement.cs</innerfile>
+    <innerfile refid="_user_management_8cs">UserManagement.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Final_Project_Advance_Programming/DAL/"/>
+  </compounddef>
+</doxygen>

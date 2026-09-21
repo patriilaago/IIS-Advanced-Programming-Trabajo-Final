@@ -1,0 +1,111 @@
+\doxysection{DAL.\+Ticket\+Management Class Reference}
+\hypertarget{class_d_a_l_1_1_ticket_management}{}\label{class_d_a_l_1_1_ticket_management}\index{DAL.TicketManagement@{DAL.TicketManagement}}
+
+
+Class for managing tickets in the database.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_models_1_1_ticket}{Ticket}} $>$ \mbox{\hyperlink{class_d_a_l_1_1_ticket_management_ac3787bdd4151a2c8c1f24740a0fb46c8}{Get\+Tickets\+By\+User}} (string username)
+\item 
+bool \mbox{\hyperlink{class_d_a_l_1_1_ticket_management_a9f5064c8612a97c07179449daf671a84}{Insert\+Ticket}} (\mbox{\hyperlink{class_models_1_1_ticket}{Ticket}} ticket)
+\begin{DoxyCompactList}\small\item\em Inserts a ticket into the database. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_d_a_l_1_1_ticket_management_a26e943ebee9ec47ada280a6f471651db}{Update\+Ticket\+Response}} (int ticket\+Id, string response)
+\begin{DoxyCompactList}\small\item\em ~\newline
+ Manages ticket operations for technicians in the database. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_d_a_l_1_1_ticket_management_a332ee677725e391ced9cd048d930046e}{Update\+Ticket\+Status}} (int ticket\+Id, string status, string service\+Status)
+\begin{DoxyCompactList}\small\item\em Updates the status and service status of a ticket. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_models_1_1_ticket}{Ticket}} $>$ \mbox{\hyperlink{class_d_a_l_1_1_ticket_management_a8c9fc5145d82ed8fd80d3c607dd03347}{Get\+All\+Tickets}} ()
+\begin{DoxyCompactList}\small\item\em Gets all tickets from the database. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for managing tickets in the database. 
+
+Definition at line \mbox{\hyperlink{_ticket_management_8cs_source_l00037}{37}} of file \mbox{\hyperlink{_ticket_management_8cs_source}{Ticket\+Management.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_d_a_l_1_1_ticket_management_a8c9fc5145d82ed8fd80d3c607dd03347}\index{DAL.TicketManagement@{DAL.TicketManagement}!GetAllTickets@{GetAllTickets}}
+\index{GetAllTickets@{GetAllTickets}!DAL.TicketManagement@{DAL.TicketManagement}}
+\doxysubsubsection{\texorpdfstring{GetAllTickets()}{GetAllTickets()}}
+{\footnotesize\ttfamily \label{class_d_a_l_1_1_ticket_management_a8c9fc5145d82ed8fd80d3c607dd03347} 
+List$<$ \mbox{\hyperlink{class_models_1_1_ticket}{Ticket}} $>$ DAL.\+Ticket\+Management.\+Get\+All\+Tickets (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Gets all tickets from the database. 
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_management_8cs_source_l00228}{228}} of file \mbox{\hyperlink{_ticket_management_8cs_source}{Ticket\+Management.\+cs}}.
+
+\Hypertarget{class_d_a_l_1_1_ticket_management_ac3787bdd4151a2c8c1f24740a0fb46c8}\index{DAL.TicketManagement@{DAL.TicketManagement}!GetTicketsByUser@{GetTicketsByUser}}
+\index{GetTicketsByUser@{GetTicketsByUser}!DAL.TicketManagement@{DAL.TicketManagement}}
+\doxysubsubsection{\texorpdfstring{GetTicketsByUser()}{GetTicketsByUser()}}
+{\footnotesize\ttfamily \label{class_d_a_l_1_1_ticket_management_ac3787bdd4151a2c8c1f24740a0fb46c8} 
+List$<$ \mbox{\hyperlink{class_models_1_1_ticket}{Ticket}} $>$ DAL.\+Ticket\+Management.\+Get\+Tickets\+By\+User (\begin{DoxyParamCaption}\item[{string}]{username}{}\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_management_8cs_source_l00041}{41}} of file \mbox{\hyperlink{_ticket_management_8cs_source}{Ticket\+Management.\+cs}}.
+
+\Hypertarget{class_d_a_l_1_1_ticket_management_a9f5064c8612a97c07179449daf671a84}\index{DAL.TicketManagement@{DAL.TicketManagement}!InsertTicket@{InsertTicket}}
+\index{InsertTicket@{InsertTicket}!DAL.TicketManagement@{DAL.TicketManagement}}
+\doxysubsubsection{\texorpdfstring{InsertTicket()}{InsertTicket()}}
+{\footnotesize\ttfamily \label{class_d_a_l_1_1_ticket_management_a9f5064c8612a97c07179449daf671a84} 
+bool DAL.\+Ticket\+Management.\+Insert\+Ticket (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_models_1_1_ticket}{Ticket}}}]{ticket}{}\end{DoxyParamCaption})}
+
+
+
+Inserts a ticket into the database. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ticket} & It\textquotesingle{}a the (harware of software) ticket to insert.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of the tickets inserted in the databse
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_ticket_management_8cs_source_l00103}{103}} of file \mbox{\hyperlink{_ticket_management_8cs_source}{Ticket\+Management.\+cs}}.
+
+\Hypertarget{class_d_a_l_1_1_ticket_management_a26e943ebee9ec47ada280a6f471651db}\index{DAL.TicketManagement@{DAL.TicketManagement}!UpdateTicketResponse@{UpdateTicketResponse}}
+\index{UpdateTicketResponse@{UpdateTicketResponse}!DAL.TicketManagement@{DAL.TicketManagement}}
+\doxysubsubsection{\texorpdfstring{UpdateTicketResponse()}{UpdateTicketResponse()}}
+{\footnotesize\ttfamily \label{class_d_a_l_1_1_ticket_management_a26e943ebee9ec47ada280a6f471651db} 
+bool DAL.\+Ticket\+Management.\+Update\+Ticket\+Response (\begin{DoxyParamCaption}\item[{int}]{ticket\+Id}{, }\item[{string}]{response}{}\end{DoxyParamCaption})}
+
+
+
+~\newline
+ Manages ticket operations for technicians in the database. 
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_management_8cs_source_l00154}{154}} of file \mbox{\hyperlink{_ticket_management_8cs_source}{Ticket\+Management.\+cs}}.
+
+\Hypertarget{class_d_a_l_1_1_ticket_management_a332ee677725e391ced9cd048d930046e}\index{DAL.TicketManagement@{DAL.TicketManagement}!UpdateTicketStatus@{UpdateTicketStatus}}
+\index{UpdateTicketStatus@{UpdateTicketStatus}!DAL.TicketManagement@{DAL.TicketManagement}}
+\doxysubsubsection{\texorpdfstring{UpdateTicketStatus()}{UpdateTicketStatus()}}
+{\footnotesize\ttfamily \label{class_d_a_l_1_1_ticket_management_a332ee677725e391ced9cd048d930046e} 
+bool DAL.\+Ticket\+Management.\+Update\+Ticket\+Status (\begin{DoxyParamCaption}\item[{int}]{ticket\+Id}{, }\item[{string}]{status}{, }\item[{string}]{service\+Status}{}\end{DoxyParamCaption})}
+
+
+
+Updates the status and service status of a ticket. 
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_management_8cs_source_l00178}{178}} of file \mbox{\hyperlink{_ticket_management_8cs_source}{Ticket\+Management.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Final\+\_\+\+Project\+\_\+\+Advance\+\_\+\+Programming/\+DAL/Ticket\+Management.\+cs\end{DoxyCompactItemize}

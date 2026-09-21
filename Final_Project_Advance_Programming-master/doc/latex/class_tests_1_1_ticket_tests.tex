@@ -1,0 +1,233 @@
+\doxysection{Tests.\+Ticket\+Tests Class Reference}
+\hypertarget{class_tests_1_1_ticket_tests}{}\label{class_tests_1_1_ticket_tests}\index{Tests.TicketTests@{Tests.TicketTests}}
+
+
+Unit tests for the \doxylink{class_models_1_1_ticket}{Ticket}, \doxylink{class_models_1_1_hardware_ticket}{Hardware\+Ticket}, and \doxylink{class_models_1_1_software_ticket}{Software\+Ticket} classes.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_tests_1_1_ticket_tests_a0e0b5fe4fbea6ee56646122977bdcc93}{Hardware\+Ticket\+\_\+\+Get\+Summary\+\_\+\+Returns\+Correct\+Format}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{namespace_tests}{Tests} that \doxylink{class_models_1_1_hardware_ticket}{Hardware\+Ticket} returns a correctly formatted summary. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tests_1_1_ticket_tests_a2580a485c8fbdaf673f0362a6273c293}{Software\+Ticket\+\_\+\+Get\+Summary\+\_\+\+Returns\+Correct\+Format}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{namespace_tests}{Tests} that \doxylink{class_models_1_1_software_ticket}{Software\+Ticket} returns a correctly formatted summary. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tests_1_1_ticket_tests_a90ea1dcd023f31ec7bac6630a48e7289}{Ticket\+\_\+\+Initialization\+\_\+\+Sets\+Correct\+Values}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{namespace_tests}{Tests} that all properties are correctly assigned in a hardware ticket. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tests_1_1_ticket_tests_ac8606e7582a08a0768ea91121ff8fa3e}{Software\+Ticket\+\_\+\+Empty\+Strings\+\_\+\+Are\+Handled\+Gracefully}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{namespace_tests}{Tests} that empty string values in software tickets are handled gracefully. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tests_1_1_ticket_tests_a794ff84de267493ad9f730e7d053f4d4}{Hardware\+Ticket\+\_\+\+Null\+Properties\+\_\+\+Returns\+Summary\+With\+Nulls}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{namespace_tests}{Tests} that null values in a hardware ticket do not cause errors in Get\+Summary(). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tests_1_1_ticket_tests_a679fcf2851d298aaad4dd1dba6325139}{Software\+Ticket\+\_\+\+Null\+Properties\+\_\+\+Returns\+Summary\+With\+Nulls}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{namespace_tests}{Tests} that null values in a software ticket do not cause errors in Get\+Summary(). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tests_1_1_ticket_tests_a3568f976ef71fabfbdc665bb8b908cc9}{Ticket\+\_\+\+Created\+At\+In\+Future\+\_\+\+Throws\+Exception}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{namespace_tests}{Tests} that setting Created\+At to a future date throws an exception. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tests_1_1_ticket_tests_ac937a6a218f9fc0a8195e89947b17581}{Ticket\+\_\+\+Invalid\+Status\+\_\+\+Throws\+Exception}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{namespace_tests}{Tests} that assigning an invalid ticket status throws an exception. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tests_1_1_ticket_tests_a1f1fe1fe1998924e9cecc09c134306f1}{Ticket\+\_\+\+Invalid\+Service\+Status\+\_\+\+Throws\+Exception}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{namespace_tests}{Tests} that assigning an invalid service status throws an exception. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tests_1_1_ticket_tests_a10ab17ed975ccdb52ba9338ee1a72b1a}{Ticket\+\_\+\+Summary\+\_\+\+With\+Special\+Characters}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{namespace_tests}{Tests} that special characters are preserved in the ticket summary. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tests_1_1_ticket_tests_a02a065dc95bd3daea3212f697904312d}{Software\+Ticket\+\_\+\+Long\+Description\+\_\+\+Returns\+Correct\+Summary}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{namespace_tests}{Tests} that long descriptions in software tickets do not break the summary. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Unit tests for the \doxylink{class_models_1_1_ticket}{Ticket}, \doxylink{class_models_1_1_hardware_ticket}{Hardware\+Ticket}, and \doxylink{class_models_1_1_software_ticket}{Software\+Ticket} classes. 
+
+Definition at line \mbox{\hyperlink{_ticket_tests_8cs_source_l00011}{11}} of file \mbox{\hyperlink{_ticket_tests_8cs_source}{Ticket\+Tests.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_tests_1_1_ticket_tests_a0e0b5fe4fbea6ee56646122977bdcc93}\index{Tests.TicketTests@{Tests.TicketTests}!HardwareTicket\_GetSummary\_ReturnsCorrectFormat@{HardwareTicket\_GetSummary\_ReturnsCorrectFormat}}
+\index{HardwareTicket\_GetSummary\_ReturnsCorrectFormat@{HardwareTicket\_GetSummary\_ReturnsCorrectFormat}!Tests.TicketTests@{Tests.TicketTests}}
+\doxysubsubsection{\texorpdfstring{HardwareTicket\_GetSummary\_ReturnsCorrectFormat()}{HardwareTicket\_GetSummary\_ReturnsCorrectFormat()}}
+{\footnotesize\ttfamily \label{class_tests_1_1_ticket_tests_a0e0b5fe4fbea6ee56646122977bdcc93} 
+void Tests.\+Ticket\+Tests.\+Hardware\+Ticket\+\_\+\+Get\+Summary\+\_\+\+Returns\+Correct\+Format (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxylink{namespace_tests}{Tests} that \doxylink{class_models_1_1_hardware_ticket}{Hardware\+Ticket} returns a correctly formatted summary. 
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_tests_8cs_source_l00017}{17}} of file \mbox{\hyperlink{_ticket_tests_8cs_source}{Ticket\+Tests.\+cs}}.
+
+\Hypertarget{class_tests_1_1_ticket_tests_a794ff84de267493ad9f730e7d053f4d4}\index{Tests.TicketTests@{Tests.TicketTests}!HardwareTicket\_NullProperties\_ReturnsSummaryWithNulls@{HardwareTicket\_NullProperties\_ReturnsSummaryWithNulls}}
+\index{HardwareTicket\_NullProperties\_ReturnsSummaryWithNulls@{HardwareTicket\_NullProperties\_ReturnsSummaryWithNulls}!Tests.TicketTests@{Tests.TicketTests}}
+\doxysubsubsection{\texorpdfstring{HardwareTicket\_NullProperties\_ReturnsSummaryWithNulls()}{HardwareTicket\_NullProperties\_ReturnsSummaryWithNulls()}}
+{\footnotesize\ttfamily \label{class_tests_1_1_ticket_tests_a794ff84de267493ad9f730e7d053f4d4} 
+void Tests.\+Ticket\+Tests.\+Hardware\+Ticket\+\_\+\+Null\+Properties\+\_\+\+Returns\+Summary\+With\+Nulls (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxylink{namespace_tests}{Tests} that null values in a hardware ticket do not cause errors in Get\+Summary(). 
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_tests_8cs_source_l00081}{81}} of file \mbox{\hyperlink{_ticket_tests_8cs_source}{Ticket\+Tests.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_tests_1_1_ticket_tests_a794ff84de267493ad9f730e7d053f4d4_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_tests_1_1_ticket_tests_ac8606e7582a08a0768ea91121ff8fa3e}\index{Tests.TicketTests@{Tests.TicketTests}!SoftwareTicket\_EmptyStrings\_AreHandledGracefully@{SoftwareTicket\_EmptyStrings\_AreHandledGracefully}}
+\index{SoftwareTicket\_EmptyStrings\_AreHandledGracefully@{SoftwareTicket\_EmptyStrings\_AreHandledGracefully}!Tests.TicketTests@{Tests.TicketTests}}
+\doxysubsubsection{\texorpdfstring{SoftwareTicket\_EmptyStrings\_AreHandledGracefully()}{SoftwareTicket\_EmptyStrings\_AreHandledGracefully()}}
+{\footnotesize\ttfamily \label{class_tests_1_1_ticket_tests_ac8606e7582a08a0768ea91121ff8fa3e} 
+void Tests.\+Ticket\+Tests.\+Software\+Ticket\+\_\+\+Empty\+Strings\+\_\+\+Are\+Handled\+Gracefully (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxylink{namespace_tests}{Tests} that empty string values in software tickets are handled gracefully. 
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_tests_8cs_source_l00066}{66}} of file \mbox{\hyperlink{_ticket_tests_8cs_source}{Ticket\+Tests.\+cs}}.
+
+\Hypertarget{class_tests_1_1_ticket_tests_a2580a485c8fbdaf673f0362a6273c293}\index{Tests.TicketTests@{Tests.TicketTests}!SoftwareTicket\_GetSummary\_ReturnsCorrectFormat@{SoftwareTicket\_GetSummary\_ReturnsCorrectFormat}}
+\index{SoftwareTicket\_GetSummary\_ReturnsCorrectFormat@{SoftwareTicket\_GetSummary\_ReturnsCorrectFormat}!Tests.TicketTests@{Tests.TicketTests}}
+\doxysubsubsection{\texorpdfstring{SoftwareTicket\_GetSummary\_ReturnsCorrectFormat()}{SoftwareTicket\_GetSummary\_ReturnsCorrectFormat()}}
+{\footnotesize\ttfamily \label{class_tests_1_1_ticket_tests_a2580a485c8fbdaf673f0362a6273c293} 
+void Tests.\+Ticket\+Tests.\+Software\+Ticket\+\_\+\+Get\+Summary\+\_\+\+Returns\+Correct\+Format (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxylink{namespace_tests}{Tests} that \doxylink{class_models_1_1_software_ticket}{Software\+Ticket} returns a correctly formatted summary. 
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_tests_8cs_source_l00027}{27}} of file \mbox{\hyperlink{_ticket_tests_8cs_source}{Ticket\+Tests.\+cs}}.
+
+\Hypertarget{class_tests_1_1_ticket_tests_a02a065dc95bd3daea3212f697904312d}\index{Tests.TicketTests@{Tests.TicketTests}!SoftwareTicket\_LongDescription\_ReturnsCorrectSummary@{SoftwareTicket\_LongDescription\_ReturnsCorrectSummary}}
+\index{SoftwareTicket\_LongDescription\_ReturnsCorrectSummary@{SoftwareTicket\_LongDescription\_ReturnsCorrectSummary}!Tests.TicketTests@{Tests.TicketTests}}
+\doxysubsubsection{\texorpdfstring{SoftwareTicket\_LongDescription\_ReturnsCorrectSummary()}{SoftwareTicket\_LongDescription\_ReturnsCorrectSummary()}}
+{\footnotesize\ttfamily \label{class_tests_1_1_ticket_tests_a02a065dc95bd3daea3212f697904312d} 
+void Tests.\+Ticket\+Tests.\+Software\+Ticket\+\_\+\+Long\+Description\+\_\+\+Returns\+Correct\+Summary (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxylink{namespace_tests}{Tests} that long descriptions in software tickets do not break the summary. 
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_tests_8cs_source_l00162}{162}} of file \mbox{\hyperlink{_ticket_tests_8cs_source}{Ticket\+Tests.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_tests_1_1_ticket_tests_a02a065dc95bd3daea3212f697904312d_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_tests_1_1_ticket_tests_a679fcf2851d298aaad4dd1dba6325139}\index{Tests.TicketTests@{Tests.TicketTests}!SoftwareTicket\_NullProperties\_ReturnsSummaryWithNulls@{SoftwareTicket\_NullProperties\_ReturnsSummaryWithNulls}}
+\index{SoftwareTicket\_NullProperties\_ReturnsSummaryWithNulls@{SoftwareTicket\_NullProperties\_ReturnsSummaryWithNulls}!Tests.TicketTests@{Tests.TicketTests}}
+\doxysubsubsection{\texorpdfstring{SoftwareTicket\_NullProperties\_ReturnsSummaryWithNulls()}{SoftwareTicket\_NullProperties\_ReturnsSummaryWithNulls()}}
+{\footnotesize\ttfamily \label{class_tests_1_1_ticket_tests_a679fcf2851d298aaad4dd1dba6325139} 
+void Tests.\+Ticket\+Tests.\+Software\+Ticket\+\_\+\+Null\+Properties\+\_\+\+Returns\+Summary\+With\+Nulls (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxylink{namespace_tests}{Tests} that null values in a software ticket do not cause errors in Get\+Summary(). 
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_tests_8cs_source_l00092}{92}} of file \mbox{\hyperlink{_ticket_tests_8cs_source}{Ticket\+Tests.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_tests_1_1_ticket_tests_a679fcf2851d298aaad4dd1dba6325139_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_tests_1_1_ticket_tests_a3568f976ef71fabfbdc665bb8b908cc9}\index{Tests.TicketTests@{Tests.TicketTests}!Ticket\_CreatedAtInFuture\_ThrowsException@{Ticket\_CreatedAtInFuture\_ThrowsException}}
+\index{Ticket\_CreatedAtInFuture\_ThrowsException@{Ticket\_CreatedAtInFuture\_ThrowsException}!Tests.TicketTests@{Tests.TicketTests}}
+\doxysubsubsection{\texorpdfstring{Ticket\_CreatedAtInFuture\_ThrowsException()}{Ticket\_CreatedAtInFuture\_ThrowsException()}}
+{\footnotesize\ttfamily \label{class_tests_1_1_ticket_tests_a3568f976ef71fabfbdc665bb8b908cc9} 
+void Tests.\+Ticket\+Tests.\+Ticket\+\_\+\+Created\+At\+In\+Future\+\_\+\+Throws\+Exception (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxylink{namespace_tests}{Tests} that setting Created\+At to a future date throws an exception. 
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_tests_8cs_source_l00104}{104}} of file \mbox{\hyperlink{_ticket_tests_8cs_source}{Ticket\+Tests.\+cs}}.
+
+\Hypertarget{class_tests_1_1_ticket_tests_a90ea1dcd023f31ec7bac6630a48e7289}\index{Tests.TicketTests@{Tests.TicketTests}!Ticket\_Initialization\_SetsCorrectValues@{Ticket\_Initialization\_SetsCorrectValues}}
+\index{Ticket\_Initialization\_SetsCorrectValues@{Ticket\_Initialization\_SetsCorrectValues}!Tests.TicketTests@{Tests.TicketTests}}
+\doxysubsubsection{\texorpdfstring{Ticket\_Initialization\_SetsCorrectValues()}{Ticket\_Initialization\_SetsCorrectValues()}}
+{\footnotesize\ttfamily \label{class_tests_1_1_ticket_tests_a90ea1dcd023f31ec7bac6630a48e7289} 
+void Tests.\+Ticket\+Tests.\+Ticket\+\_\+\+Initialization\+\_\+\+Sets\+Correct\+Values (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxylink{namespace_tests}{Tests} that all properties are correctly assigned in a hardware ticket. 
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_tests_8cs_source_l00037}{37}} of file \mbox{\hyperlink{_ticket_tests_8cs_source}{Ticket\+Tests.\+cs}}.
+
+\Hypertarget{class_tests_1_1_ticket_tests_a1f1fe1fe1998924e9cecc09c134306f1}\index{Tests.TicketTests@{Tests.TicketTests}!Ticket\_InvalidServiceStatus\_ThrowsException@{Ticket\_InvalidServiceStatus\_ThrowsException}}
+\index{Ticket\_InvalidServiceStatus\_ThrowsException@{Ticket\_InvalidServiceStatus\_ThrowsException}!Tests.TicketTests@{Tests.TicketTests}}
+\doxysubsubsection{\texorpdfstring{Ticket\_InvalidServiceStatus\_ThrowsException()}{Ticket\_InvalidServiceStatus\_ThrowsException()}}
+{\footnotesize\ttfamily \label{class_tests_1_1_ticket_tests_a1f1fe1fe1998924e9cecc09c134306f1} 
+void Tests.\+Ticket\+Tests.\+Ticket\+\_\+\+Invalid\+Service\+Status\+\_\+\+Throws\+Exception (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxylink{namespace_tests}{Tests} that assigning an invalid service status throws an exception. 
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_tests_8cs_source_l00133}{133}} of file \mbox{\hyperlink{_ticket_tests_8cs_source}{Ticket\+Tests.\+cs}}.
+
+\Hypertarget{class_tests_1_1_ticket_tests_ac937a6a218f9fc0a8195e89947b17581}\index{Tests.TicketTests@{Tests.TicketTests}!Ticket\_InvalidStatus\_ThrowsException@{Ticket\_InvalidStatus\_ThrowsException}}
+\index{Ticket\_InvalidStatus\_ThrowsException@{Ticket\_InvalidStatus\_ThrowsException}!Tests.TicketTests@{Tests.TicketTests}}
+\doxysubsubsection{\texorpdfstring{Ticket\_InvalidStatus\_ThrowsException()}{Ticket\_InvalidStatus\_ThrowsException()}}
+{\footnotesize\ttfamily \label{class_tests_1_1_ticket_tests_ac937a6a218f9fc0a8195e89947b17581} 
+void Tests.\+Ticket\+Tests.\+Ticket\+\_\+\+Invalid\+Status\+\_\+\+Throws\+Exception (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxylink{namespace_tests}{Tests} that assigning an invalid ticket status throws an exception. 
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_tests_8cs_source_l00120}{120}} of file \mbox{\hyperlink{_ticket_tests_8cs_source}{Ticket\+Tests.\+cs}}.
+
+\Hypertarget{class_tests_1_1_ticket_tests_a10ab17ed975ccdb52ba9338ee1a72b1a}\index{Tests.TicketTests@{Tests.TicketTests}!Ticket\_Summary\_WithSpecialCharacters@{Ticket\_Summary\_WithSpecialCharacters}}
+\index{Ticket\_Summary\_WithSpecialCharacters@{Ticket\_Summary\_WithSpecialCharacters}!Tests.TicketTests@{Tests.TicketTests}}
+\doxysubsubsection{\texorpdfstring{Ticket\_Summary\_WithSpecialCharacters()}{Ticket\_Summary\_WithSpecialCharacters()}}
+{\footnotesize\ttfamily \label{class_tests_1_1_ticket_tests_a10ab17ed975ccdb52ba9338ee1a72b1a} 
+void Tests.\+Ticket\+Tests.\+Ticket\+\_\+\+Summary\+\_\+\+With\+Special\+Characters (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxylink{namespace_tests}{Tests} that special characters are preserved in the ticket summary. 
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_tests_8cs_source_l00146}{146}} of file \mbox{\hyperlink{_ticket_tests_8cs_source}{Ticket\+Tests.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_tests_1_1_ticket_tests_a10ab17ed975ccdb52ba9338ee1a72b1a_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Final\+\_\+\+Project\+\_\+\+Advance\+\_\+\+Programming/\+Ticket\+Tests/Ticket\+Tests.\+cs\end{DoxyCompactItemize}

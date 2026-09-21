@@ -1,0 +1,48 @@
+.TH "DAL.UserManagement" 3 "TICKET2HELP MANAGEMENT PLATFORM" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+DAL.UserManagement \- Class for managing user authentication and roles in the database\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBUser\fP? \fBGetUser\fP (string username, string password)"
+.br
+.RI "Retrieves a user from the database based on username and password\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class for managing user authentication and roles in the database\&. 
+.PP
+Definition at line \fB17\fP of file \fBUserManagement\&.cs\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBUser\fP? DAL\&.UserManagement\&.GetUser (string username, string password)"
+
+.PP
+Retrieves a user from the database based on username and password\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIusername\fP Name of the user
+.br
+\fIpassword\fP Password of the user
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Return the user that haves the username and the password and in the case that not have a user with the user and password returns null\&.
+.RE
+.PP
+
+.PP
+Definition at line \fB27\fP of file \fBUserManagement\&.cs\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for TICKET2HELP MANAGEMENT PLATFORM from the source code\&.

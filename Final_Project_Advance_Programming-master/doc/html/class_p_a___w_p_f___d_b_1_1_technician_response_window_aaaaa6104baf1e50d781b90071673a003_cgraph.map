@@ -1,0 +1,5 @@
+<map id="PA_WPF_DB.TechnicianResponseWindow.TechnicianResponseWindow" name="PA_WPF_DB.TechnicianResponseWindow.TechnicianResponseWindow">
+<area shape="rect" id="Node000001" title="Constructor for TechnicianResponseWindow that initializes the window with the ticket ID to respond to..." alt="" coords="5,5,243,48"/>
+<area shape="rect" id="Node000002" href="$class_p_a___w_p_f___d_b_1_1_technician_response_window.html#aa14e8551f485e0e73f235573d207768c" title="InitializeComponent." alt="" coords="291,5,516,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,24,275,24,275,29,243,29"/>
+</map>

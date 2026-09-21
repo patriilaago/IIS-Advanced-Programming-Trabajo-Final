@@ -1,0 +1,30 @@
+﻿<Window x:Class="PA_WPF_DB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PA_WPF_DB"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+         Title="Ticket2Help - LogIn" Height="340" Width="688">
+    <Grid Background="#f0f0f0" Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock FontSize="20" FontWeight="Bold" Margin="0,0,0,20" HorizontalAlignment="Center"><Run Language="es-es" Text="Log in"/></TextBlock>
+
+        <StackPanel Grid.Row="1" Margin="20">
+            <Label Content="User:"/>
+            <TextBox Name="txtUsername" Height="29" />
+            <Label Content="Password:" Margin="0,10,0,0"/>
+            <PasswordBox Name="txtPassword" Height="29" />
+        </StackPanel>
+
+        <Button Grid.Row="3" Content="Enter" Width="88" Margin="0,22,0,-57" HorizontalAlignment="Center"
+                Click="Login_Click"/>
+    </Grid>
+</Window>

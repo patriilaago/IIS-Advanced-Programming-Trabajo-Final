@@ -1,0 +1,134 @@
+\doxysection{Models.\+Software\+Ticket Class Reference}
+\hypertarget{class_models_1_1_software_ticket}{}\label{class_models_1_1_software_ticket}\index{Models.SoftwareTicket@{Models.SoftwareTicket}}
+
+
+Represents a software-\/related ticket in the Ticket2\+Help system.  
+
+
+
+
+Inheritance diagram for Models.\+Software\+Ticket\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=194pt]{class_models_1_1_software_ticket__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Models.\+Software\+Ticket\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=194pt]{class_models_1_1_software_ticket__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override string \mbox{\hyperlink{class_models_1_1_software_ticket_a19a4e09eb6de2788e0b8ee593040ed89}{Get\+Summary}} ()
+\begin{DoxyCompactList}\small\item\em Gets a summary of the software ticket. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_models_1_1_ticket}{Models.\+Ticket}}}
+\begin{DoxyCompactItemize}
+\item 
+string {\bfseries Get\+Summary} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_models_1_1_software_ticket_a1c81aca3df6af66231b9d2801685638a}{Software}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the software involved in the software ticket and the description of the issue. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_models_1_1_software_ticket_ab8950ea3561239df4e85df72d1059137}{Description}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the description of the issue in the software ticket. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_models_1_1_ticket}{Models.\+Ticket}}}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_models_1_1_ticket_aa87ba47feeed78c51298c39295e9dae3}{Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the unique identifier for the ticket. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_models_1_1_ticket_a1ce9b8250c4f16a5a3dd89b0f56d28f1}{Username}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the username of the user who created the ticket. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_models_1_1_ticket_a68f42cb157dbf6b38df055f3c2ace33f}{Ticket\+Type}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the type of the ticket, which can be \textquotesingle{}Hardware\textquotesingle{} or \textquotesingle{}Software\textquotesingle{}. \end{DoxyCompactList}\item 
+Date\+Time \mbox{\hyperlink{class_models_1_1_ticket_aede0c39c54ad8e295e034e65c8cdbdbf}{Created\+At}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the date and time when the ticket was created. \end{DoxyCompactList}\item 
+Date\+Time \mbox{\hyperlink{class_models_1_1_ticket_ace8621c065154f4bad120f877d64ff49}{Answered\+At}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the date and time when the ticket was answered. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_models_1_1_ticket_afeb79a6a453b489a7f1c0393bac1790b}{Status}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the status of the ticket, which can be \textquotesingle{}Unanswered\textquotesingle{}, \textquotesingle{}In Service\textquotesingle{}, or \textquotesingle{}Fulfilled\textquotesingle{}. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_models_1_1_ticket_a482f8197ba1b32f34ceb7123f69e7c03}{Service\+Status}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the service status of the ticket, which can be \textquotesingle{}Open\textquotesingle{}, \textquotesingle{}Resolved\textquotesingle{}, or \textquotesingle{}Not Resolved\textquotesingle{}. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_models_1_1_ticket_a48855fa76be9cf66f78049c22bdb6da6}{Response}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Response for the ticket. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a software-\/related ticket in the Ticket2\+Help system. 
+
+Definition at line \mbox{\hyperlink{_ticket_8cs_source_l00085}{85}} of file \mbox{\hyperlink{_ticket_8cs_source}{Ticket.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_models_1_1_software_ticket_a19a4e09eb6de2788e0b8ee593040ed89}\index{Models.SoftwareTicket@{Models.SoftwareTicket}!GetSummary@{GetSummary}}
+\index{GetSummary@{GetSummary}!Models.SoftwareTicket@{Models.SoftwareTicket}}
+\doxysubsubsection{\texorpdfstring{GetSummary()}{GetSummary()}}
+{\footnotesize\ttfamily \label{class_models_1_1_software_ticket_a19a4e09eb6de2788e0b8ee593040ed89} 
+override string Models.\+Software\+Ticket.\+Get\+Summary (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Gets a summary of the software ticket. 
+
+\begin{DoxyReturn}{Returns}
+The sumary of the hardware tickets
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_ticket_8cs_source_l00101}{101}} of file \mbox{\hyperlink{_ticket_8cs_source}{Ticket.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_models_1_1_software_ticket_a19a4e09eb6de2788e0b8ee593040ed89_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_models_1_1_software_ticket_ab8950ea3561239df4e85df72d1059137}\index{Models.SoftwareTicket@{Models.SoftwareTicket}!Description@{Description}}
+\index{Description@{Description}!Models.SoftwareTicket@{Models.SoftwareTicket}}
+\doxysubsubsection{\texorpdfstring{Description}{Description}}
+{\footnotesize\ttfamily \label{class_models_1_1_software_ticket_ab8950ea3561239df4e85df72d1059137} 
+string Models.\+Software\+Ticket.\+Description\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets the description of the issue in the software ticket. 
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_8cs_source_l00095}{95}} of file \mbox{\hyperlink{_ticket_8cs_source}{Ticket.\+cs}}.
+
+\Hypertarget{class_models_1_1_software_ticket_a1c81aca3df6af66231b9d2801685638a}\index{Models.SoftwareTicket@{Models.SoftwareTicket}!Software@{Software}}
+\index{Software@{Software}!Models.SoftwareTicket@{Models.SoftwareTicket}}
+\doxysubsubsection{\texorpdfstring{Software}{Software}}
+{\footnotesize\ttfamily \label{class_models_1_1_software_ticket_a1c81aca3df6af66231b9d2801685638a} 
+string Models.\+Software\+Ticket.\+Software\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets the software involved in the software ticket and the description of the issue. 
+
+
+
+Definition at line \mbox{\hyperlink{_ticket_8cs_source_l00090}{90}} of file \mbox{\hyperlink{_ticket_8cs_source}{Ticket.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Final\+\_\+\+Project\+\_\+\+Advance\+\_\+\+Programming/\+Models/Ticket.\+cs\end{DoxyCompactItemize}

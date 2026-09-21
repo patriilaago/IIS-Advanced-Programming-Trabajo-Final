@@ -1,0 +1,99 @@
+\doxysection{Dashboard\+Window.\+xaml.\+cs}
+\hypertarget{_dashboard_window_8xaml_8cs_source}{}\label{_dashboard_window_8xaml_8cs_source}\index{C:/Final\_Project\_Advance\_Programming/PA-\/WPF-\/DB/DashboardWindow.xaml.cs@{C:/Final\_Project\_Advance\_Programming/PA-\/WPF-\/DB/DashboardWindow.xaml.cs}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }System;}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }System.Configuration;}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }System.Windows;}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00004}00004\ \textcolor{keyword}{using\ }LiveCharts;}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00005}00005\ \textcolor{keyword}{using\ }LiveCharts.Wpf;}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00006}00006\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_b_l_l}{BLL}};}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00007}00007\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00008}00008\ \textcolor{keyword}{using\ }System.Linq;}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00009}00009\ }
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00010}00010\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_p_a___w_p_f___d_b}{PA\_WPF\_DB}}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00011}00011\ \{}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00015}\mbox{\hyperlink{class_p_a___w_p_f___d_b_1_1_dashboard_window}{00015}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{partial\ class\ }DashboardWindow\ :\ Window}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00016}00016\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00017}00017\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \mbox{\hyperlink{class_b_l_l_1_1_dashboard_statistics_service}{DashboardStatisticsService}}\ statisticsService;}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00018}00018\ }
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00019}00019\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Properties\ bound\ to\ the\ charts}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00020}00020\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ SeriesCollection\ ServiceStatusSeries\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00021}00021\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ SeriesCollection\ AverageTimeSeries\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00022}00022\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}[]\ TimeLabels\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00023}00023\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ FulfilledPercentageText\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00024}00024\ }
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00025}00025\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ DashboardWindow()}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00026}00026\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00027}00027\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_p_a___w_p_f___d_b_1_1_dashboard_window_a7aaab4b791a6f596ef3a6ca59631d316}{InitializeComponent}}();}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00028}00028\ }
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00029}00029\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ connectionString\ =\ ConfigurationManager}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00030}00030\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ .ConnectionStrings[\textcolor{stringliteral}{"{}Ticket2HelpConnection"{}}].ConnectionString;}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00031}00031\ }
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00032}00032\ \ \ \ \ \ \ \ \ \ \ \ \ statisticsService\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_b_l_l_1_1_dashboard_statistics_service}{DashboardStatisticsService}}(connectionString);}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00033}00033\ }
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00034}00034\ \ \ \ \ \ \ \ \ \ \ \ \ LoadDashboardData();}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00035}00035\ \ \ \ \ \ \ \ \ \ \ \ \ DataContext\ =\ \textcolor{keyword}{this};\ \textcolor{comment}{//\ Bind\ data\ to\ XAML}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00036}00036\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00037}00037\ }
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00038}00038\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ LoadDashboardData()}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00039}00039\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00040}00040\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Convert\ nullable\ DatePickers\ to\ non-\/nullable\ with\ default\ values}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00041}00041\ \ \ \ \ \ \ \ \ \ \ \ \ DateTime?\ startDate\ =\ StartDatePicker.SelectedDate;}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00042}00042\ \ \ \ \ \ \ \ \ \ \ \ \ DateTime?\ endDate\ =\ EndDatePicker.SelectedDate;}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00043}00043\ }
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00044}00044\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Evita\ errores\ con\ fechas\ nulas}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00045}00045\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!startDate.HasValue\ ||\ !endDate.HasValue)}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00046}00046\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00047}00047\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ startDate\ =\ \textcolor{keyword}{new}\ DateTime(2000,\ 1,\ 1);\ \textcolor{comment}{//\ fecha\ por\ defecto}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00048}00048\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ endDate\ =\ DateTime.Now;}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00049}00049\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00050}00050\ }
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00051}00051\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ 📊\ Pie\ Chart\ -\/\ Distribución\ de\ estados\ del\ servicio}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00052}00052\ \ \ \ \ \ \ \ \ \ \ \ \ var\ statusData\ =\ statisticsService.GetServiceStatusDistribution(startDate,\ endDate);}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00053}00053\ \ \ \ \ \ \ \ \ \ \ \ \ ServiceStatusSeries\ =\ \textcolor{keyword}{new}\ SeriesCollection();}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00054}00054\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (var\ kvp\ \textcolor{keywordflow}{in}\ statusData)}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00055}00055\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00056}00056\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ServiceStatusSeries.Add(\textcolor{keyword}{new}\ PieSeries}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00057}00057\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00058}00058\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Title\ =\ kvp.Key,}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00059}00059\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Values\ =\ \textcolor{keyword}{new}\ ChartValues<int>\ \{\ kvp.Value\ \},}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00060}00060\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ DataLabels\ =\ \textcolor{keyword}{true}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00061}00061\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \});}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00062}00062\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00063}00063\ }
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00064}00064\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ 📉\ Column\ Chart\ -\/\ Tiempo\ medio\ de\ servicio\ por\ tipo}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00065}00065\ \ \ \ \ \ \ \ \ \ \ \ \ var\ avgTimes\ =\ statisticsService.GetAverageServiceTimePerType(startDate,\ endDate);}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00066}00066\ \ \ \ \ \ \ \ \ \ \ \ \ AverageTimeSeries\ =\ \textcolor{keyword}{new}\ SeriesCollection}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00067}00067\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00068}00068\ \ \ \ \ \ \ \ \ \textcolor{keyword}{new}\ ColumnSeries}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00069}00069\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00070}00070\ \ \ \ \ \ \ \ \ \ \ \ \ Title\ =\ \textcolor{stringliteral}{"{}Average\ Time"{}},}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00071}00071\ \ \ \ \ \ \ \ \ \ \ \ \ Values\ =\ \textcolor{keyword}{new}\ ChartValues<double>(avgTimes.Values)}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00072}00072\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00073}00073\ \ \ \ \ \};}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00074}00074\ \ \ \ \ \ \ \ \ \ \ \ \ TimeLabels\ =\ avgTimes.Keys.ToArray();}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00075}00075\ }
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00076}00076\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ ✅\ Porcentaje\ de\ tickets\ cumplidos}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00077}00077\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{double}\ fulfilled\ =\ statisticsService.GetPercentageFulfilledWithinDateRange(startDate.Value,\ endDate.Value);}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00078}00078\ \ \ \ \ \ \ \ \ \ \ \ \ FulfilledPercentageText\ =\ \$\textcolor{stringliteral}{"{}Fulfilled\ Tickets:\ \{fulfilled:0.\#\#\}\%"{}};}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00079}00079\ }
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00080}00080\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ 🔄\ Refresca\ los\ gráficos\ en\ el\ XAML}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00081}00081\ \ \ \ \ \ \ \ \ \ \ \ \ DataContext\ =\ \textcolor{keyword}{null};}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00082}00082\ \ \ \ \ \ \ \ \ \ \ \ \ DataContext\ =\ \textcolor{keyword}{this};}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00083}00083\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00084}00084\ }
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00085}00085\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ Refresh\_Click(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00086}00086\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00087}00087\ \ \ \ \ \ \ \ \ \ \ \ \ LoadDashboardData();}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00088}00088\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00089}00089\ }
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00093}00093\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ BackToTickets\_Click(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00094}00094\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00095}00095\ \ \ \ \ \ \ \ \ \ \ \ \ this.Close();\ \textcolor{comment}{//\ Simply\ closes\ the\ dashboard\ window}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00096}00096\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00097}00097\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00098}00098\ \}}
+\DoxyCodeLine{\Hypertarget{_dashboard_window_8xaml_8cs_source_l00099}00099\ }
+
+\end{DoxyCode}

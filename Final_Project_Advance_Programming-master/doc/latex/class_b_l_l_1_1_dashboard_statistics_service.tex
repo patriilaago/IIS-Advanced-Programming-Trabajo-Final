@@ -1,0 +1,83 @@
+\doxysection{BLL.\+Dashboard\+Statistics\+Service Class Reference}
+\hypertarget{class_b_l_l_1_1_dashboard_statistics_service}{}\label{class_b_l_l_1_1_dashboard_statistics_service}\index{BLL.DashboardStatisticsService@{BLL.DashboardStatisticsService}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_b_l_l_1_1_dashboard_statistics_service_a8b0a9e9c5c72975429b12b4c28ab1068}{Dashboard\+Statistics\+Service}} (string connection\+String)
+\item 
+double \mbox{\hyperlink{class_b_l_l_1_1_dashboard_statistics_service_adf8f048f62b97d56b318ac9b15ea6b69}{Get\+Percentage\+Fulfilled\+Within\+Date\+Range}} (Date\+Time start, Date\+Time end)
+\begin{DoxyCompactList}\small\item\em Calculates the percentage of fulfilled tickets within the given date range. \end{DoxyCompactList}\item 
+Dictionary$<$ string, int $>$ \mbox{\hyperlink{class_b_l_l_1_1_dashboard_statistics_service_a9951757705dec5ed2590b4295632d38a}{Get\+Service\+Status\+Distribution}} (Date\+Time? start=null, Date\+Time? end=null)
+\begin{DoxyCompactList}\small\item\em Returns the number of tickets grouped by service status. Optionally filters by date. \end{DoxyCompactList}\item 
+Dictionary$<$ string, double $>$ \mbox{\hyperlink{class_b_l_l_1_1_dashboard_statistics_service_a683a93eebf90c67b82f69216858d4beb}{Get\+Average\+Service\+Time\+Per\+Type}} (Date\+Time? start=null, Date\+Time? end=null)
+\begin{DoxyCompactList}\small\item\em Calculates the average service time (in minutes) for each ticket type. Optionally filters by date. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{_dashboard_statistics_service_8cs_source_l00007}{7}} of file \mbox{\hyperlink{_dashboard_statistics_service_8cs_source}{Dashboard\+Statistics\+Service.\+cs}}.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_b_l_l_1_1_dashboard_statistics_service_a8b0a9e9c5c72975429b12b4c28ab1068}\index{BLL.DashboardStatisticsService@{BLL.DashboardStatisticsService}!DashboardStatisticsService@{DashboardStatisticsService}}
+\index{DashboardStatisticsService@{DashboardStatisticsService}!BLL.DashboardStatisticsService@{BLL.DashboardStatisticsService}}
+\doxysubsubsection{\texorpdfstring{DashboardStatisticsService()}{DashboardStatisticsService()}}
+{\footnotesize\ttfamily \label{class_b_l_l_1_1_dashboard_statistics_service_a8b0a9e9c5c72975429b12b4c28ab1068} 
+BLL.\+Dashboard\+Statistics\+Service.\+Dashboard\+Statistics\+Service (\begin{DoxyParamCaption}\item[{string}]{connection\+String}{}\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_dashboard_statistics_service_8cs_source_l00011}{11}} of file \mbox{\hyperlink{_dashboard_statistics_service_8cs_source}{Dashboard\+Statistics\+Service.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_b_l_l_1_1_dashboard_statistics_service_a683a93eebf90c67b82f69216858d4beb}\index{BLL.DashboardStatisticsService@{BLL.DashboardStatisticsService}!GetAverageServiceTimePerType@{GetAverageServiceTimePerType}}
+\index{GetAverageServiceTimePerType@{GetAverageServiceTimePerType}!BLL.DashboardStatisticsService@{BLL.DashboardStatisticsService}}
+\doxysubsubsection{\texorpdfstring{GetAverageServiceTimePerType()}{GetAverageServiceTimePerType()}}
+{\footnotesize\ttfamily \label{class_b_l_l_1_1_dashboard_statistics_service_a683a93eebf90c67b82f69216858d4beb} 
+Dictionary$<$ string, double $>$ BLL.\+Dashboard\+Statistics\+Service.\+Get\+Average\+Service\+Time\+Per\+Type (\begin{DoxyParamCaption}\item[{Date\+Time?}]{start}{ = {\ttfamily null}, }\item[{Date\+Time?}]{end}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+
+
+Calculates the average service time (in minutes) for each ticket type. Optionally filters by date. 
+
+
+
+Definition at line \mbox{\hyperlink{_dashboard_statistics_service_8cs_source_l00092}{92}} of file \mbox{\hyperlink{_dashboard_statistics_service_8cs_source}{Dashboard\+Statistics\+Service.\+cs}}.
+
+\Hypertarget{class_b_l_l_1_1_dashboard_statistics_service_adf8f048f62b97d56b318ac9b15ea6b69}\index{BLL.DashboardStatisticsService@{BLL.DashboardStatisticsService}!GetPercentageFulfilledWithinDateRange@{GetPercentageFulfilledWithinDateRange}}
+\index{GetPercentageFulfilledWithinDateRange@{GetPercentageFulfilledWithinDateRange}!BLL.DashboardStatisticsService@{BLL.DashboardStatisticsService}}
+\doxysubsubsection{\texorpdfstring{GetPercentageFulfilledWithinDateRange()}{GetPercentageFulfilledWithinDateRange()}}
+{\footnotesize\ttfamily \label{class_b_l_l_1_1_dashboard_statistics_service_adf8f048f62b97d56b318ac9b15ea6b69} 
+double BLL.\+Dashboard\+Statistics\+Service.\+Get\+Percentage\+Fulfilled\+Within\+Date\+Range (\begin{DoxyParamCaption}\item[{Date\+Time}]{start}{, }\item[{Date\+Time}]{end}{}\end{DoxyParamCaption})}
+
+
+
+Calculates the percentage of fulfilled tickets within the given date range. 
+
+
+
+Definition at line \mbox{\hyperlink{_dashboard_statistics_service_8cs_source_l00019}{19}} of file \mbox{\hyperlink{_dashboard_statistics_service_8cs_source}{Dashboard\+Statistics\+Service.\+cs}}.
+
+\Hypertarget{class_b_l_l_1_1_dashboard_statistics_service_a9951757705dec5ed2590b4295632d38a}\index{BLL.DashboardStatisticsService@{BLL.DashboardStatisticsService}!GetServiceStatusDistribution@{GetServiceStatusDistribution}}
+\index{GetServiceStatusDistribution@{GetServiceStatusDistribution}!BLL.DashboardStatisticsService@{BLL.DashboardStatisticsService}}
+\doxysubsubsection{\texorpdfstring{GetServiceStatusDistribution()}{GetServiceStatusDistribution()}}
+{\footnotesize\ttfamily \label{class_b_l_l_1_1_dashboard_statistics_service_a9951757705dec5ed2590b4295632d38a} 
+Dictionary$<$ string, int $>$ BLL.\+Dashboard\+Statistics\+Service.\+Get\+Service\+Status\+Distribution (\begin{DoxyParamCaption}\item[{Date\+Time?}]{start}{ = {\ttfamily null}, }\item[{Date\+Time?}]{end}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+
+
+Returns the number of tickets grouped by service status. Optionally filters by date. 
+
+
+
+Definition at line \mbox{\hyperlink{_dashboard_statistics_service_8cs_source_l00052}{52}} of file \mbox{\hyperlink{_dashboard_statistics_service_8cs_source}{Dashboard\+Statistics\+Service.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Final\+\_\+\+Project\+\_\+\+Advance\+\_\+\+Programming/\+BLL/Dashboard\+Statistics\+Service.\+cs\end{DoxyCompactItemize}

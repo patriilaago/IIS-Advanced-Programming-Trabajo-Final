@@ -1,0 +1,59 @@
+\doxysection{Ticket.\+cs}
+\hypertarget{_ticket_8cs_source}{}\label{_ticket_8cs_source}\index{C:/Final\_Project\_Advance\_Programming/Models/Ticket.cs@{C:/Final\_Project\_Advance\_Programming/Models/Ticket.cs}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }System;}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }System.Linq;}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00004}00004\ \textcolor{keyword}{using\ }System.Text;}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00005}00005\ \textcolor{keyword}{using\ }System.Threading.Tasks;}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00006}00006\ }
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00007}\mbox{\hyperlink{namespace_models}{00007}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_models}{Models}}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00008}00008\ \{}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00012}\mbox{\hyperlink{class_models_1_1_ticket}{00012}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{abstract}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_models_1_1_ticket}{Ticket}}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00013}00013\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00017}\mbox{\hyperlink{class_models_1_1_ticket_aa87ba47feeed78c51298c39295e9dae3}{00017}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_models_1_1_ticket_aa87ba47feeed78c51298c39295e9dae3}{Id}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00018}00018\ }
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00022}\mbox{\hyperlink{class_models_1_1_ticket_a1ce9b8250c4f16a5a3dd89b0f56d28f1}{00022}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_models_1_1_ticket_a1ce9b8250c4f16a5a3dd89b0f56d28f1}{Username}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00023}00023\ }
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00027}\mbox{\hyperlink{class_models_1_1_ticket_a68f42cb157dbf6b38df055f3c2ace33f}{00027}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_models_1_1_ticket_a68f42cb157dbf6b38df055f3c2ace33f}{TicketType}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}\ \textcolor{comment}{//\ 'Hardware',\ 'Software'}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00028}00028\ }
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00032}\mbox{\hyperlink{class_models_1_1_ticket_aede0c39c54ad8e295e034e65c8cdbdbf}{00032}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ DateTime\ \mbox{\hyperlink{class_models_1_1_ticket_aede0c39c54ad8e295e034e65c8cdbdbf}{CreatedAt}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00033}00033\ }
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00037}\mbox{\hyperlink{class_models_1_1_ticket_ace8621c065154f4bad120f877d64ff49}{00037}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ DateTime\ \mbox{\hyperlink{class_models_1_1_ticket_ace8621c065154f4bad120f877d64ff49}{AnsweredAt}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00038}00038\ }
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00042}\mbox{\hyperlink{class_models_1_1_ticket_afeb79a6a453b489a7f1c0393bac1790b}{00042}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_models_1_1_ticket_afeb79a6a453b489a7f1c0393bac1790b}{Status}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}\ \textcolor{comment}{//\ 'Unanswered',\ 'In\ Service',\ 'Fulfilled'}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00043}00043\ }
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00047}\mbox{\hyperlink{class_models_1_1_ticket_a482f8197ba1b32f34ceb7123f69e7c03}{00047}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_models_1_1_ticket_a482f8197ba1b32f34ceb7123f69e7c03}{ServiceStatus}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}\ \textcolor{comment}{//\ 'Open',\ 'Resolved',\ 'Not\ Resolved'}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00048}00048\ }
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00052}\mbox{\hyperlink{class_models_1_1_ticket_a48855fa76be9cf66f78049c22bdb6da6}{00052}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_models_1_1_ticket_a48855fa76be9cf66f78049c22bdb6da6}{Response}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00053}00053\ }
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00054}00054\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{abstract}\ \textcolor{keywordtype}{string}\ GetSummary();\ }
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00055}00055\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00059}\mbox{\hyperlink{class_models_1_1_hardware_ticket}{00059}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_models_1_1_hardware_ticket}{HardwareTicket}}\ :\ \mbox{\hyperlink{class_models_1_1_ticket}{Ticket}}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00060}00060\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00061}00061\ }
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00065}\mbox{\hyperlink{class_models_1_1_hardware_ticket_a61f27bfc397a0e264a69aea5bc837796}{00065}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_models_1_1_hardware_ticket_a61f27bfc397a0e264a69aea5bc837796}{Equipment}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00066}00066\ }
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00070}\mbox{\hyperlink{class_models_1_1_hardware_ticket_a118716024aa88b8d4b19253a04e69d96}{00070}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_models_1_1_hardware_ticket_a118716024aa88b8d4b19253a04e69d96}{Malfunction}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00071}00071\ }
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00076}\mbox{\hyperlink{class_models_1_1_hardware_ticket_a1a1dd72af7ae94c977b56ee1c6dd5d94}{00076}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{override}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_models_1_1_hardware_ticket_a1a1dd72af7ae94c977b56ee1c6dd5d94}{GetSummary}}()}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00077}00077\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00078}00078\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \$\textcolor{stringliteral}{"{}[HW]\ \{Equipment\}\ -\/\ \{Malfunction\}"{}};}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00079}00079\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00080}00080\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00081}00081\ }
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00085}\mbox{\hyperlink{class_models_1_1_software_ticket}{00085}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_models_1_1_software_ticket}{SoftwareTicket}}\ :\ \mbox{\hyperlink{class_models_1_1_ticket}{Ticket}}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00086}00086\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00090}\mbox{\hyperlink{class_models_1_1_software_ticket_a1c81aca3df6af66231b9d2801685638a}{00090}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_models_1_1_software_ticket_a1c81aca3df6af66231b9d2801685638a}{Software}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00091}00091\ }
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00095}\mbox{\hyperlink{class_models_1_1_software_ticket_ab8950ea3561239df4e85df72d1059137}{00095}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_models_1_1_software_ticket_ab8950ea3561239df4e85df72d1059137}{Description}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00096}00096\ }
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00101}\mbox{\hyperlink{class_models_1_1_software_ticket_a19a4e09eb6de2788e0b8ee593040ed89}{00101}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{override}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_models_1_1_software_ticket_a19a4e09eb6de2788e0b8ee593040ed89}{GetSummary}}()}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00102}00102\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00103}00103\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \$\textcolor{stringliteral}{"{}[SW]\ \{Software\}\ -\/\ \{Description\}"{}};}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00104}00104\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00105}00105\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_ticket_8cs_source_l00106}00106\ \}}
+
+\end{DoxyCode}

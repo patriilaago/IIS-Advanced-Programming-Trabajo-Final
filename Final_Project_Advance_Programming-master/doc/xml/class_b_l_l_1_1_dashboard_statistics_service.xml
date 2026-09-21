@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_b_l_l_1_1_dashboard_statistics_service" kind="class" language="C#" prot="public">
+    <compoundname>BLL::DashboardStatisticsService</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_b_l_l_1_1_dashboard_statistics_service_1a3caaa6fbb88c3972d315182785d02197" prot="private" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string BLL.DashboardStatisticsService.connectionString</definition>
+        <argsstring></argsstring>
+        <name>connectionString</name>
+        <qualifiedname>BLL.DashboardStatisticsService.connectionString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/BLL/DashboardStatisticsService.cs" line="9" column="33" bodyfile="C:/Final_Project_Advance_Programming/BLL/DashboardStatisticsService.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_b_l_l_1_1_dashboard_statistics_service_1a8b0a9e9c5c72975429b12b4c28ab1068" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BLL.DashboardStatisticsService.DashboardStatisticsService</definition>
+        <argsstring>(string connectionString)</argsstring>
+        <name>DashboardStatisticsService</name>
+        <qualifiedname>BLL.DashboardStatisticsService.DashboardStatisticsService</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>connectionString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/BLL/DashboardStatisticsService.cs" line="11" column="16" bodyfile="C:/Final_Project_Advance_Programming/BLL/DashboardStatisticsService.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_l_l_1_1_dashboard_statistics_service_1adf8f048f62b97d56b318ac9b15ea6b69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double BLL.DashboardStatisticsService.GetPercentageFulfilledWithinDateRange</definition>
+        <argsstring>(DateTime start, DateTime end)</argsstring>
+        <name>GetPercentageFulfilledWithinDateRange</name>
+        <qualifiedname>BLL.DashboardStatisticsService.GetPercentageFulfilledWithinDateRange</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>Calculates the percentage of fulfilled tickets within the given date range. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/BLL/DashboardStatisticsService.cs" line="19" column="23" bodyfile="C:/Final_Project_Advance_Programming/BLL/DashboardStatisticsService.cs" bodystart="19" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_l_l_1_1_dashboard_statistics_service_1a9951757705dec5ed2590b4295632d38a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, int &gt;</type>
+        <definition>Dictionary&lt; string, int &gt; BLL.DashboardStatisticsService.GetServiceStatusDistribution</definition>
+        <argsstring>(DateTime? start=null, DateTime? end=null)</argsstring>
+        <name>GetServiceStatusDistribution</name>
+        <qualifiedname>BLL.DashboardStatisticsService.GetServiceStatusDistribution</qualifiedname>
+        <param>
+          <type>DateTime?</type>
+          <declname>start</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>DateTime?</type>
+          <declname>end</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Returns the number of tickets grouped by service status. Optionally filters by date. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/BLL/DashboardStatisticsService.cs" line="52" column="27" bodyfile="C:/Final_Project_Advance_Programming/BLL/DashboardStatisticsService.cs" bodystart="52" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_l_l_1_1_dashboard_statistics_service_1a683a93eebf90c67b82f69216858d4beb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, double &gt;</type>
+        <definition>Dictionary&lt; string, double &gt; BLL.DashboardStatisticsService.GetAverageServiceTimePerType</definition>
+        <argsstring>(DateTime? start=null, DateTime? end=null)</argsstring>
+        <name>GetAverageServiceTimePerType</name>
+        <qualifiedname>BLL.DashboardStatisticsService.GetAverageServiceTimePerType</qualifiedname>
+        <param>
+          <type>DateTime?</type>
+          <declname>start</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>DateTime?</type>
+          <declname>end</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Calculates the average service time (in minutes) for each ticket type. Optionally filters by date. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/BLL/DashboardStatisticsService.cs" line="92" column="27" bodyfile="C:/Final_Project_Advance_Programming/BLL/DashboardStatisticsService.cs" bodystart="92" bodyend="134"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Final_Project_Advance_Programming/BLL/DashboardStatisticsService.cs" line="7" column="11" bodyfile="C:/Final_Project_Advance_Programming/BLL/DashboardStatisticsService.cs" bodystart="8" bodyend="135"/>
+    <listofallmembers>
+      <member refid="class_b_l_l_1_1_dashboard_statistics_service_1a3caaa6fbb88c3972d315182785d02197" prot="private" virt="non-virtual"><scope>BLL::DashboardStatisticsService</scope><name>connectionString</name></member>
+      <member refid="class_b_l_l_1_1_dashboard_statistics_service_1a8b0a9e9c5c72975429b12b4c28ab1068" prot="public" virt="non-virtual"><scope>BLL::DashboardStatisticsService</scope><name>DashboardStatisticsService</name></member>
+      <member refid="class_b_l_l_1_1_dashboard_statistics_service_1a683a93eebf90c67b82f69216858d4beb" prot="public" virt="non-virtual"><scope>BLL::DashboardStatisticsService</scope><name>GetAverageServiceTimePerType</name></member>
+      <member refid="class_b_l_l_1_1_dashboard_statistics_service_1adf8f048f62b97d56b318ac9b15ea6b69" prot="public" virt="non-virtual"><scope>BLL::DashboardStatisticsService</scope><name>GetPercentageFulfilledWithinDateRange</name></member>
+      <member refid="class_b_l_l_1_1_dashboard_statistics_service_1a9951757705dec5ed2590b4295632d38a" prot="public" virt="non-virtual"><scope>BLL::DashboardStatisticsService</scope><name>GetServiceStatusDistribution</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

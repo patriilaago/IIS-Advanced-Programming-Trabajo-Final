@@ -1,0 +1,48 @@
+﻿<Window x:Class="PA_WPF_DB.NewTicketWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="New Ticket" Height="450" Width="400"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Label and ComboBox for Type -->
+        <Label Content="Type:" Grid.Row="0" />
+        <ComboBox x:Name="cbType" Grid.Row="1" Margin="0,5,0,10" SelectionChanged="cbType_SelectionChanged">
+            <ComboBoxItem Content="Hardware" />
+            <ComboBoxItem Content="Software" />
+        </ComboBox>
+
+        <!-- Hardware Fields -->
+        <StackPanel x:Name="panelHardware" Grid.Row="2" Visibility="Collapsed" Margin="0,5,0,10">
+            <TextBlock Text="Equipment:" />
+            <TextBox x:Name="txtEquipment" />
+
+            <TextBlock Text="Malfunction:" Margin="0,10,0,0" />
+            <TextBox x:Name="txtMalfunction"  Height="80" TextWrapping="Wrap"
+                     VerticalScrollBarVisibility="Auto" AcceptsReturn="True"/>
+        </StackPanel>
+
+        <!-- Software Fields -->
+        <StackPanel x:Name="panelSoftware" Grid.Row="3" Visibility="Collapsed" Margin="0,5,0,10">
+            <TextBlock Text="Software:" />
+            <TextBox x:Name="txtSoftware" />
+
+            <TextBlock Text="Description:" Margin="0,10,0,0" />
+            <TextBox x:Name="txtDescription" Height="80" TextWrapping="Wrap"
+                     VerticalScrollBarVisibility="Auto" AcceptsReturn="True"/>
+        </StackPanel>
+
+        <!-- Submit Button -->
+        <Button Content="Submit" Grid.Row="5" Width="100" Height="30" HorizontalAlignment="Right"
+                Click="Submit_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,87 @@
+.TH "TicketManagementBLL" 3 "TICKET2HELP MANAGEMENT PLATFORM" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TicketManagementBLL \- Class for managing ticket responses and statuses in the system\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBRespondToTicket\fP (int ticketId, string response)"
+.br
+.RI "Constructor for \fBTicketManagementBLL\fP that initializes the ticket repository\&. "
+.ti -1c
+.RI "bool \fBCloseTicket\fP (int ticketId)"
+.br
+.RI "Closes a ticket by updating its status to "Closed"\&. "
+.ti -1c
+.RI "List< \fBTicket\fP > \fBGetAllTickets\fP ()"
+.br
+.RI "Retrieves all tickets from the database\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class for managing ticket responses and statuses in the system\&. 
+.PP
+Definition at line \fB9\fP of file \fBTicketManagementBLL\&.cs\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "bool TicketManagementBLL\&.CloseTicket (int ticketId)"
+
+.PP
+Closes a ticket by updating its status to "Closed"\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIticketId\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Returns true if ticket can stay close and false in the other case
+.RE
+.PP
+
+.PP
+Definition at line \fB31\fP of file \fBTicketManagementBLL\&.cs\fP\&.
+.SS "List< \fBTicket\fP > TicketManagementBLL\&.GetAllTickets ()"
+
+.PP
+Retrieves all tickets from the database\&. 
+.PP
+\fBReturns\fP
+.RS 4
+A list with all the tickets
+.RE
+.PP
+
+.PP
+Definition at line \fB40\fP of file \fBTicketManagementBLL\&.cs\fP\&.
+.SS "bool TicketManagementBLL\&.RespondToTicket (int ticketId, string response)"
+
+.PP
+Constructor for \fBTicketManagementBLL\fP that initializes the ticket repository\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIticketId\fP Id of the ticket to response
+.br
+\fIresponse\fP Response for the ticket
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Returns true if ticket have response and false in the other case
+.RE
+.PP
+
+.PP
+Definition at line \fB21\fP of file \fBTicketManagementBLL\&.cs\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for TICKET2HELP MANAGEMENT PLATFORM from the source code\&.

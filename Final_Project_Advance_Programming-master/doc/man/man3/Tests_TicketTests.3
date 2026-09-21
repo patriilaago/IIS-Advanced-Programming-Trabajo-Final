@@ -1,0 +1,134 @@
+.TH "Tests.TicketTests" 3 "TICKET2HELP MANAGEMENT PLATFORM" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Tests.TicketTests \- Unit tests for the \fBTicket\fP, \fBHardwareTicket\fP, and \fBSoftwareTicket\fP classes\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBHardwareTicket_GetSummary_ReturnsCorrectFormat\fP ()"
+.br
+.RI "\fBTests\fP that \fBHardwareTicket\fP returns a correctly formatted summary\&. "
+.ti -1c
+.RI "void \fBSoftwareTicket_GetSummary_ReturnsCorrectFormat\fP ()"
+.br
+.RI "\fBTests\fP that \fBSoftwareTicket\fP returns a correctly formatted summary\&. "
+.ti -1c
+.RI "void \fBTicket_Initialization_SetsCorrectValues\fP ()"
+.br
+.RI "\fBTests\fP that all properties are correctly assigned in a hardware ticket\&. "
+.ti -1c
+.RI "void \fBSoftwareTicket_EmptyStrings_AreHandledGracefully\fP ()"
+.br
+.RI "\fBTests\fP that empty string values in software tickets are handled gracefully\&. "
+.ti -1c
+.RI "void \fBHardwareTicket_NullProperties_ReturnsSummaryWithNulls\fP ()"
+.br
+.RI "\fBTests\fP that null values in a hardware ticket do not cause errors in GetSummary()\&. "
+.ti -1c
+.RI "void \fBSoftwareTicket_NullProperties_ReturnsSummaryWithNulls\fP ()"
+.br
+.RI "\fBTests\fP that null values in a software ticket do not cause errors in GetSummary()\&. "
+.ti -1c
+.RI "void \fBTicket_CreatedAtInFuture_ThrowsException\fP ()"
+.br
+.RI "\fBTests\fP that setting CreatedAt to a future date throws an exception\&. "
+.ti -1c
+.RI "void \fBTicket_InvalidStatus_ThrowsException\fP ()"
+.br
+.RI "\fBTests\fP that assigning an invalid ticket status throws an exception\&. "
+.ti -1c
+.RI "void \fBTicket_InvalidServiceStatus_ThrowsException\fP ()"
+.br
+.RI "\fBTests\fP that assigning an invalid service status throws an exception\&. "
+.ti -1c
+.RI "void \fBTicket_Summary_WithSpecialCharacters\fP ()"
+.br
+.RI "\fBTests\fP that special characters are preserved in the ticket summary\&. "
+.ti -1c
+.RI "void \fBSoftwareTicket_LongDescription_ReturnsCorrectSummary\fP ()"
+.br
+.RI "\fBTests\fP that long descriptions in software tickets do not break the summary\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Unit tests for the \fBTicket\fP, \fBHardwareTicket\fP, and \fBSoftwareTicket\fP classes\&. 
+.PP
+Definition at line \fB11\fP of file \fBTicketTests\&.cs\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Tests\&.TicketTests\&.HardwareTicket_GetSummary_ReturnsCorrectFormat ()"
+
+.PP
+\fBTests\fP that \fBHardwareTicket\fP returns a correctly formatted summary\&. 
+.PP
+Definition at line \fB17\fP of file \fBTicketTests\&.cs\fP\&.
+.SS "void Tests\&.TicketTests\&.HardwareTicket_NullProperties_ReturnsSummaryWithNulls ()"
+
+.PP
+\fBTests\fP that null values in a hardware ticket do not cause errors in GetSummary()\&. 
+.PP
+Definition at line \fB81\fP of file \fBTicketTests\&.cs\fP\&.
+.SS "void Tests\&.TicketTests\&.SoftwareTicket_EmptyStrings_AreHandledGracefully ()"
+
+.PP
+\fBTests\fP that empty string values in software tickets are handled gracefully\&. 
+.PP
+Definition at line \fB66\fP of file \fBTicketTests\&.cs\fP\&.
+.SS "void Tests\&.TicketTests\&.SoftwareTicket_GetSummary_ReturnsCorrectFormat ()"
+
+.PP
+\fBTests\fP that \fBSoftwareTicket\fP returns a correctly formatted summary\&. 
+.PP
+Definition at line \fB27\fP of file \fBTicketTests\&.cs\fP\&.
+.SS "void Tests\&.TicketTests\&.SoftwareTicket_LongDescription_ReturnsCorrectSummary ()"
+
+.PP
+\fBTests\fP that long descriptions in software tickets do not break the summary\&. 
+.PP
+Definition at line \fB162\fP of file \fBTicketTests\&.cs\fP\&.
+.SS "void Tests\&.TicketTests\&.SoftwareTicket_NullProperties_ReturnsSummaryWithNulls ()"
+
+.PP
+\fBTests\fP that null values in a software ticket do not cause errors in GetSummary()\&. 
+.PP
+Definition at line \fB92\fP of file \fBTicketTests\&.cs\fP\&.
+.SS "void Tests\&.TicketTests\&.Ticket_CreatedAtInFuture_ThrowsException ()"
+
+.PP
+\fBTests\fP that setting CreatedAt to a future date throws an exception\&. 
+.PP
+Definition at line \fB104\fP of file \fBTicketTests\&.cs\fP\&.
+.SS "void Tests\&.TicketTests\&.Ticket_Initialization_SetsCorrectValues ()"
+
+.PP
+\fBTests\fP that all properties are correctly assigned in a hardware ticket\&. 
+.PP
+Definition at line \fB37\fP of file \fBTicketTests\&.cs\fP\&.
+.SS "void Tests\&.TicketTests\&.Ticket_InvalidServiceStatus_ThrowsException ()"
+
+.PP
+\fBTests\fP that assigning an invalid service status throws an exception\&. 
+.PP
+Definition at line \fB133\fP of file \fBTicketTests\&.cs\fP\&.
+.SS "void Tests\&.TicketTests\&.Ticket_InvalidStatus_ThrowsException ()"
+
+.PP
+\fBTests\fP that assigning an invalid ticket status throws an exception\&. 
+.PP
+Definition at line \fB120\fP of file \fBTicketTests\&.cs\fP\&.
+.SS "void Tests\&.TicketTests\&.Ticket_Summary_WithSpecialCharacters ()"
+
+.PP
+\fBTests\fP that special characters are preserved in the ticket summary\&. 
+.PP
+Definition at line \fB146\fP of file \fBTicketTests\&.cs\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for TICKET2HELP MANAGEMENT PLATFORM from the source code\&.

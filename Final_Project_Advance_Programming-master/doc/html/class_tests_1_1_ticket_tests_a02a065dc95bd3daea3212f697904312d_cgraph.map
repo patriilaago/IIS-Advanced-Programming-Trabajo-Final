@@ -1,0 +1,5 @@
+<map id="Tests.TicketTests.SoftwareTicket_LongDescription_ReturnsCorrectSummary" name="Tests.TicketTests.SoftwareTicket_LongDescription_ReturnsCorrectSummary">
+<area shape="rect" id="Node000001" title="Tests that long descriptions in software tickets do not break the summary." alt="" coords="5,5,184,64"/>
+<area shape="rect" id="Node000002" href="$class_models_1_1_software_ticket.html#a19a4e09eb6de2788e0b8ee593040ed89" title="Gets a summary of the software ticket." alt="" coords="232,13,409,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,32,216,32,216,37,184,37"/>
+</map>

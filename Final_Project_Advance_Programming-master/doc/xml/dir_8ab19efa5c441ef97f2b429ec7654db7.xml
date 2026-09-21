@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_8ab19efa5c441ef97f2b429ec7654db7" kind="dir">
+    <compoundname>C:/Final_Project_Advance_Programming/TicketTests</compoundname>
+    <innerdir refid="dir_bf10a85cb61ee0b098e4f77c98e2179e">C:/Final_Project_Advance_Programming/TicketTests/obj</innerdir>
+    <innerfile refid="_m_s_test_settings_8cs">MSTestSettings.cs</innerfile>
+    <innerfile refid="_ticket_tests_8cs">TicketTests.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Final_Project_Advance_Programming/TicketTests/"/>
+  </compounddef>
+</doxygen>

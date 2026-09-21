@@ -1,0 +1,62 @@
+\doxysection{Main\+Window.\+xaml.\+cs}
+\hypertarget{_main_window_8xaml_8cs_source}{}\label{_main_window_8xaml_8cs_source}\index{C:/Final\_Project\_Advance\_Programming/PA-\/WPF-\/DB/MainWindow.xaml.cs@{C:/Final\_Project\_Advance\_Programming/PA-\/WPF-\/DB/MainWindow.xaml.cs}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_b_l_l}{BLL}};}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_d_a_l}{DAL}};}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }Microsoft.AspNetCore.Mvc.ModelBinding;}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00004}00004\ \textcolor{keyword}{using\ }System.Data;}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00005}00005\ \textcolor{keyword}{using\ }System.Text;}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00006}00006\ \textcolor{keyword}{using\ }System.Windows;}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00007}00007\ \textcolor{keyword}{using\ }System.Windows.Controls;}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00008}00008\ \textcolor{keyword}{using\ }System.Windows.Data;}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00009}00009\ \textcolor{keyword}{using\ }System.Windows.Documents;}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00010}00010\ \textcolor{keyword}{using\ }System.Windows.Input;}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00011}00011\ \textcolor{keyword}{using\ }System.Windows.Media;}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00012}00012\ \textcolor{keyword}{using\ }System.Windows.Media.Imaging;}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00013}00013\ \textcolor{keyword}{using\ }System.Windows.Navigation;}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00014}00014\ \textcolor{keyword}{using\ }System.Windows.Shapes;}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00015}00015\ \textcolor{keyword}{using\ }System.Xml.Linq;}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00017}00017\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00018}00018\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_p_a___w_p_f___d_b}{PA\_WPF\_DB}}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00019}00019\ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00020}\mbox{\hyperlink{class_p_a___w_p_f___d_b_1_1_main_window}{00020}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{partial\ class\ }MainWindow\ :\ Window}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00021}00021\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00022}00022\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ MainWindow()}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00023}00023\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00024}00024\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_p_a___w_p_f___d_b_1_1_main_window_aeec9b54ce054f8bc56aececf6be3eff6}{InitializeComponent}}();}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00025}00025\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00026}00026\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00027}00027\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00028}00028\ \ \ \ \ \ \ \ \ \textcolor{comment}{//Botón\ enter\ para\ ver\ si\ es\ un\ empleado\ normal\ o\ un\ tecnico}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00029}00029\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ Login\_Click(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00030}00030\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00031}00031\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ username\ =\ txtUsername.Text.Trim();}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00032}00032\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ password\ =\ txtPassword.Password.Trim();}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00033}00033\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00034}00034\ \ \ \ \ \ \ \ \ \ \ \ \ var\ userService\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_b_l_l_1_1_user_service}{UserService}}();}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00035}00035\ \ \ \ \ \ \ \ \ \ \ \ \ var\ user\ =\ userService.ValidateLogin(username,\ password);}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00036}00036\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00037}00037\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (user\ !=\ \textcolor{keyword}{null})\ \textcolor{comment}{//si\ el\ usuario\ existe}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00038}00038\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00039}00039\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (user.Role\ ==\ \textcolor{stringliteral}{"{}Technician"{}})\ \textcolor{comment}{//si\ es\ técnico}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00040}00040\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00041}00041\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_p_a___w_p_f___d_b_1_1_technician_dashboard}{TechnicianDashboard}}().Show();}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00042}00042\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00043}00043\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \textcolor{comment}{//si\ es\ usuario\ normal}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00044}00044\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00045}00045\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_p_a___w_p_f___d_b_1_1_user_dashboard}{UserDashboard}}(user.Username).Show();}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00046}00046\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00047}00047\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ this.Close();}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00048}00048\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00049}00049\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00050}00050\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00051}00051\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ MessageBox.Show(\textcolor{stringliteral}{"{}Incorrect\ Credentials."{}});}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00052}00052\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00053}00053\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00054}00054\ }
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00055}00055\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_main_window_8xaml_8cs_source_l00056}00056\ \}}
+
+\end{DoxyCode}

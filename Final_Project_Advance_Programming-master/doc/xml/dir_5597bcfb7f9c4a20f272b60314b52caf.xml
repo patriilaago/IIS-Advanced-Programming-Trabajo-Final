@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_5597bcfb7f9c4a20f272b60314b52caf" kind="dir">
+    <compoundname>C:/Final_Project_Advance_Programming/PA-WPF-DB</compoundname>
+    <innerdir refid="dir_b7889e83586b0be6dfce34876cdff7f8">C:/Final_Project_Advance_Programming/PA-WPF-DB/obj</innerdir>
+    <innerfile refid="_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="_assembly_info_8cs">AssemblyInfo.cs</innerfile>
+    <innerfile refid="_dashboard_window_8xaml_8cs">DashboardWindow.xaml.cs</innerfile>
+    <innerfile refid="_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <innerfile refid="_new_ticket_8xaml_8cs">NewTicket.xaml.cs</innerfile>
+    <innerfile refid="_technician_dashboard_8xaml_8cs">TechnicianDashboard.xaml.cs</innerfile>
+    <innerfile refid="_technician_response_window_8xaml_8cs">TechnicianResponseWindow.xaml.cs</innerfile>
+    <innerfile refid="_user_dashboard_8xaml_8cs">UserDashboard.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/"/>
+  </compounddef>
+</doxygen>

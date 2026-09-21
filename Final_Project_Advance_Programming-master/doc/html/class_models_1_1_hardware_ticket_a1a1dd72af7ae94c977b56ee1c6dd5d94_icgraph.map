@@ -1,0 +1,7 @@
+<map id="Models.HardwareTicket.GetSummary" name="Models.HardwareTicket.GetSummary">
+<area shape="rect" id="Node000001" title="Gets a summary of the hardware ticket." alt="" coords="306,51,487,93"/>
+<area shape="rect" id="Node000002" href="$class_tests_1_1_ticket_tests.html#a794ff84de267493ad9f730e7d053f4d4" title="Tests that null values in a hardware ticket do not cause errors in GetSummary()." alt="" coords="5,5,258,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="290,60,258,55,259,50,290,54"/>
+<area shape="rect" id="Node000003" href="$class_tests_1_1_ticket_tests.html#a10ab17ed975ccdb52ba9338ee1a72b1a" title="Tests that special characters are preserved in the ticket summary." alt="" coords="19,88,244,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="291,90,244,96,244,91,290,84"/>
+</map>

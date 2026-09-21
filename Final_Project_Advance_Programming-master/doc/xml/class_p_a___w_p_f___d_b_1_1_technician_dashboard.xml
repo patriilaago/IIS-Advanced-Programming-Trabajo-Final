@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_p_a___w_p_f___d_b_1_1_technician_dashboard" kind="class" language="C#" prot="public">
+    <compoundname>PA_WPF_DB::TechnicianDashboard</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Window</basecompoundref>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1ac3a2898d2e0fb6725e0a0e5b0df48dba" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.DataGrid</type>
+        <definition>System Windows Controls DataGrid PA_WPF_DB.TechnicianDashboard::dgAllTickets</definition>
+        <argsstring></argsstring>
+        <name>dgAllTickets</name>
+        <qualifiedname>PA_WPF_DB.TechnicianDashboard.dgAllTickets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/TechnicianDashboard.g.cs" line="47" column="48" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/TechnicianDashboard.g.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a51418fd972dfe2f8334cd87c45cbc886" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PA_WPF_DB.TechnicianDashboard::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <qualifiedname>PA_WPF_DB.TechnicianDashboard._contentLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/TechnicianDashboard.g.cs" line="52" column="22" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/TechnicianDashboard.g.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a55515b68ccca9cfe0c8d067e3948d2a5" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_ticket_management_b_l_l" kindref="compound">TicketManagementBLL</ref></type>
+        <definition>readonly TicketManagementBLL PA_WPF_DB.TechnicianDashboard._ticketManager</definition>
+        <argsstring></argsstring>
+        <name>_ticketManager</name>
+        <qualifiedname>PA_WPF_DB.TechnicianDashboard._ticketManager</qualifiedname>
+        <initializer>= new <ref refid="class_ticket_management_b_l_l" kindref="compound">TicketManagementBLL</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/TechnicianDashboard.xaml.cs" line="25" column="46" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/TechnicianDashboard.xaml.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a48c3cc4b76d0dda4eabc5c4ae3908027" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PA_WPF_DB.TechnicianDashboard.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>PA_WPF_DB.TechnicianDashboard.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/TechnicianDashboard.g.cs" line="59" column="21" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/TechnicianDashboard.g.cs" bodystart="59" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a48c3cc4b76d0dda4eabc5c4ae3908027" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PA_WPF_DB.TechnicianDashboard.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>PA_WPF_DB.TechnicianDashboard.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/TechnicianDashboard.g.i.cs" line="59" column="21" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/TechnicianDashboard.g.i.cs" bodystart="59" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a121852e41d5e4a95fb9ac77f2781f129" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PA_WPF_DB.TechnicianDashboard.TechnicianDashboard</definition>
+        <argsstring>()</argsstring>
+        <name>TechnicianDashboard</name>
+        <qualifiedname>PA_WPF_DB.TechnicianDashboard.TechnicianDashboard</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/TechnicianDashboard.xaml.cs" line="27" column="16" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/TechnicianDashboard.xaml.cs" bodystart="27" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1ad4bd04ae346bde05f92d1258395dbc58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. PA_WPF_DB.TechnicianDashboard.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>PA_WPF_DB.TechnicianDashboard.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/TechnicianDashboard.g.cs" line="79" column="52" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/TechnicianDashboard.g.cs" bodystart="79" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1ad4bd04ae346bde05f92d1258395dbc58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. PA_WPF_DB.TechnicianDashboard.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>PA_WPF_DB.TechnicianDashboard.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/TechnicianDashboard.g.i.cs" line="79" column="52" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/TechnicianDashboard.g.i.cs" bodystart="79" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a69477114511da9da948c063d582d615f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PA_WPF_DB.TechnicianDashboard.LoadAllTickets</definition>
+        <argsstring>()</argsstring>
+        <name>LoadAllTickets</name>
+        <qualifiedname>PA_WPF_DB.TechnicianDashboard.LoadAllTickets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/TechnicianDashboard.xaml.cs" line="33" column="22" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/TechnicianDashboard.xaml.cs" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a6d0695944c6eb62d052892b0be0f56c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PA_WPF_DB.TechnicianDashboard.Refresh_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Refresh_Click</name>
+        <qualifiedname>PA_WPF_DB.TechnicianDashboard.Refresh_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/TechnicianDashboard.xaml.cs" line="39" column="22" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/TechnicianDashboard.xaml.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a1556c5a5fa4b74db0f03ba86681f55d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PA_WPF_DB.TechnicianDashboard.Respond_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Respond_Click</name>
+        <qualifiedname>PA_WPF_DB.TechnicianDashboard.Respond_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/TechnicianDashboard.xaml.cs" line="44" column="22" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/TechnicianDashboard.xaml.cs" bodystart="44" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a65e5bca4b1d8ba00742bdcb9d01b9566" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PA_WPF_DB.TechnicianDashboard.Close_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Close_Click</name>
+        <qualifiedname>PA_WPF_DB.TechnicianDashboard.Close_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/TechnicianDashboard.xaml.cs" line="68" column="22" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/TechnicianDashboard.xaml.cs" bodystart="68" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1aeea514049fd958f840dedc12faee5279" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PA_WPF_DB.TechnicianDashboard.ViewStats_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>ViewStats_Click</name>
+        <qualifiedname>PA_WPF_DB.TechnicianDashboard.ViewStats_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Opens the dashboard statistics window. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/TechnicianDashboard.xaml.cs" line="86" column="22" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/TechnicianDashboard.xaml.cs" bodystart="86" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard" kindref="compound">TechnicianDashboard</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Interaction logic for TechnicianDashboard.xaml. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>PA_WPF_DB.TechnicianDashboard</label>
+        <link refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.Windows.Markup.IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>System.Windows.Window</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PA_WPF_DB.TechnicianDashboard</label>
+        <link refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.Windows.Markup.IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>System.Windows.Window</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/TechnicianDashboard.g.cs" line="42" column="19" bodyfile="C:/Final_Project_Advance_Programming/PA-WPF-DB/obj/Debug/net8.0-windows/TechnicianDashboard.g.cs" bodystart="42" bodyend="120"/>
+    <listofallmembers>
+      <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a51418fd972dfe2f8334cd87c45cbc886" prot="private" virt="non-virtual"><scope>PA_WPF_DB::TechnicianDashboard</scope><name>_contentLoaded</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a55515b68ccca9cfe0c8d067e3948d2a5" prot="private" virt="non-virtual"><scope>PA_WPF_DB::TechnicianDashboard</scope><name>_ticketManager</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a65e5bca4b1d8ba00742bdcb9d01b9566" prot="private" virt="non-virtual"><scope>PA_WPF_DB::TechnicianDashboard</scope><name>Close_Click</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1ad4bd04ae346bde05f92d1258395dbc58" prot="private" virt="non-virtual"><scope>PA_WPF_DB::TechnicianDashboard</scope><name>Connect</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1ad4bd04ae346bde05f92d1258395dbc58" prot="private" virt="non-virtual"><scope>PA_WPF_DB::TechnicianDashboard</scope><name>Connect</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1ac3a2898d2e0fb6725e0a0e5b0df48dba" prot="package" virt="non-virtual"><scope>PA_WPF_DB::TechnicianDashboard</scope><name>dgAllTickets</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a48c3cc4b76d0dda4eabc5c4ae3908027" prot="public" virt="non-virtual"><scope>PA_WPF_DB::TechnicianDashboard</scope><name>InitializeComponent</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a48c3cc4b76d0dda4eabc5c4ae3908027" prot="public" virt="non-virtual"><scope>PA_WPF_DB::TechnicianDashboard</scope><name>InitializeComponent</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a69477114511da9da948c063d582d615f" prot="private" virt="non-virtual"><scope>PA_WPF_DB::TechnicianDashboard</scope><name>LoadAllTickets</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a6d0695944c6eb62d052892b0be0f56c9" prot="private" virt="non-virtual"><scope>PA_WPF_DB::TechnicianDashboard</scope><name>Refresh_Click</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a1556c5a5fa4b74db0f03ba86681f55d3" prot="private" virt="non-virtual"><scope>PA_WPF_DB::TechnicianDashboard</scope><name>Respond_Click</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1a121852e41d5e4a95fb9ac77f2781f129" prot="public" virt="non-virtual"><scope>PA_WPF_DB::TechnicianDashboard</scope><name>TechnicianDashboard</name></member>
+      <member refid="class_p_a___w_p_f___d_b_1_1_technician_dashboard_1aeea514049fd958f840dedc12faee5279" prot="private" virt="non-virtual"><scope>PA_WPF_DB::TechnicianDashboard</scope><name>ViewStats_Click</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_models_1_1_ticket.html" title="Base class for tickets in the Ticket2Help system." alt="" coords="5,31,108,57"/>
+<area shape="rect" id="Node000001" href="$class_models_1_1_hardware_ticket.html" title="Represents a hardware&#45;related ticket in the Ticket2Help system." alt="" coords="156,5,312,32"/>
+<area shape="poly" id="edge3_Node000000_Node000001" title=" " alt="" coords="122,32,155,27,155,33,123,37"/>
+<area shape="rect" id="Node000002" href="$class_models_1_1_software_ticket.html" title="Represents a software&#45;related ticket in the Ticket2Help system." alt="" coords="158,56,310,83"/>
+<area shape="poly" id="edge4_Node000000_Node000002" title=" " alt="" coords="123,51,157,56,157,61,122,56"/>
+</map>

@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_tests_1_1_ticket_tests" kind="class" language="C#" prot="public">
+    <compoundname>Tests::TicketTests</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tests_1_1_ticket_tests_1a0e0b5fe4fbea6ee56646122977bdcc93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tests.TicketTests.HardwareTicket_GetSummary_ReturnsCorrectFormat</definition>
+        <argsstring>()</argsstring>
+        <name>HardwareTicket_GetSummary_ReturnsCorrectFormat</name>
+        <qualifiedname>Tests.TicketTests.HardwareTicket_GetSummary_ReturnsCorrectFormat</qualifiedname>
+        <briefdescription>
+<para><ref refid="namespace_tests" kindref="compound">Tests</ref> that <ref refid="class_models_1_1_hardware_ticket" kindref="compound">HardwareTicket</ref> returns a correctly formatted summary. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" line="17" column="21" bodyfile="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" bodystart="17" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tests_1_1_ticket_tests_1a2580a485c8fbdaf673f0362a6273c293" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tests.TicketTests.SoftwareTicket_GetSummary_ReturnsCorrectFormat</definition>
+        <argsstring>()</argsstring>
+        <name>SoftwareTicket_GetSummary_ReturnsCorrectFormat</name>
+        <qualifiedname>Tests.TicketTests.SoftwareTicket_GetSummary_ReturnsCorrectFormat</qualifiedname>
+        <briefdescription>
+<para><ref refid="namespace_tests" kindref="compound">Tests</ref> that <ref refid="class_models_1_1_software_ticket" kindref="compound">SoftwareTicket</ref> returns a correctly formatted summary. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" line="27" column="21" bodyfile="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tests_1_1_ticket_tests_1a90ea1dcd023f31ec7bac6630a48e7289" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tests.TicketTests.Ticket_Initialization_SetsCorrectValues</definition>
+        <argsstring>()</argsstring>
+        <name>Ticket_Initialization_SetsCorrectValues</name>
+        <qualifiedname>Tests.TicketTests.Ticket_Initialization_SetsCorrectValues</qualifiedname>
+        <briefdescription>
+<para><ref refid="namespace_tests" kindref="compound">Tests</ref> that all properties are correctly assigned in a hardware ticket. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" line="37" column="21" bodyfile="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" bodystart="37" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tests_1_1_ticket_tests_1ac8606e7582a08a0768ea91121ff8fa3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tests.TicketTests.SoftwareTicket_EmptyStrings_AreHandledGracefully</definition>
+        <argsstring>()</argsstring>
+        <name>SoftwareTicket_EmptyStrings_AreHandledGracefully</name>
+        <qualifiedname>Tests.TicketTests.SoftwareTicket_EmptyStrings_AreHandledGracefully</qualifiedname>
+        <briefdescription>
+<para><ref refid="namespace_tests" kindref="compound">Tests</ref> that empty string values in software tickets are handled gracefully. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" line="66" column="21" bodyfile="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" bodystart="66" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tests_1_1_ticket_tests_1a794ff84de267493ad9f730e7d053f4d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tests.TicketTests.HardwareTicket_NullProperties_ReturnsSummaryWithNulls</definition>
+        <argsstring>()</argsstring>
+        <name>HardwareTicket_NullProperties_ReturnsSummaryWithNulls</name>
+        <qualifiedname>Tests.TicketTests.HardwareTicket_NullProperties_ReturnsSummaryWithNulls</qualifiedname>
+        <briefdescription>
+<para><ref refid="namespace_tests" kindref="compound">Tests</ref> that null values in a hardware ticket do not cause errors in GetSummary(). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" line="81" column="21" bodyfile="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" bodystart="81" bodyend="86"/>
+        <references refid="class_models_1_1_hardware_ticket_1a1a1dd72af7ae94c977b56ee1c6dd5d94" compoundref="_ticket_8cs" startline="76" endline="79">Models.HardwareTicket.GetSummary</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tests_1_1_ticket_tests_1a679fcf2851d298aaad4dd1dba6325139" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tests.TicketTests.SoftwareTicket_NullProperties_ReturnsSummaryWithNulls</definition>
+        <argsstring>()</argsstring>
+        <name>SoftwareTicket_NullProperties_ReturnsSummaryWithNulls</name>
+        <qualifiedname>Tests.TicketTests.SoftwareTicket_NullProperties_ReturnsSummaryWithNulls</qualifiedname>
+        <briefdescription>
+<para><ref refid="namespace_tests" kindref="compound">Tests</ref> that null values in a software ticket do not cause errors in GetSummary(). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" line="92" column="21" bodyfile="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" bodystart="92" bodyend="97"/>
+        <references refid="class_models_1_1_software_ticket_1a19a4e09eb6de2788e0b8ee593040ed89" compoundref="_ticket_8cs" startline="101" endline="104">Models.SoftwareTicket.GetSummary</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tests_1_1_ticket_tests_1a3568f976ef71fabfbdc665bb8b908cc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tests.TicketTests.Ticket_CreatedAtInFuture_ThrowsException</definition>
+        <argsstring>()</argsstring>
+        <name>Ticket_CreatedAtInFuture_ThrowsException</name>
+        <qualifiedname>Tests.TicketTests.Ticket_CreatedAtInFuture_ThrowsException</qualifiedname>
+        <briefdescription>
+<para><ref refid="namespace_tests" kindref="compound">Tests</ref> that setting CreatedAt to a future date throws an exception. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" line="104" column="21" bodyfile="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" bodystart="104" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tests_1_1_ticket_tests_1ac937a6a218f9fc0a8195e89947b17581" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tests.TicketTests.Ticket_InvalidStatus_ThrowsException</definition>
+        <argsstring>()</argsstring>
+        <name>Ticket_InvalidStatus_ThrowsException</name>
+        <qualifiedname>Tests.TicketTests.Ticket_InvalidStatus_ThrowsException</qualifiedname>
+        <briefdescription>
+<para><ref refid="namespace_tests" kindref="compound">Tests</ref> that assigning an invalid ticket status throws an exception. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" line="120" column="21" bodyfile="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" bodystart="120" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tests_1_1_ticket_tests_1a1f1fe1fe1998924e9cecc09c134306f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tests.TicketTests.Ticket_InvalidServiceStatus_ThrowsException</definition>
+        <argsstring>()</argsstring>
+        <name>Ticket_InvalidServiceStatus_ThrowsException</name>
+        <qualifiedname>Tests.TicketTests.Ticket_InvalidServiceStatus_ThrowsException</qualifiedname>
+        <briefdescription>
+<para><ref refid="namespace_tests" kindref="compound">Tests</ref> that assigning an invalid service status throws an exception. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" line="133" column="21" bodyfile="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" bodystart="133" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tests_1_1_ticket_tests_1a10ab17ed975ccdb52ba9338ee1a72b1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tests.TicketTests.Ticket_Summary_WithSpecialCharacters</definition>
+        <argsstring>()</argsstring>
+        <name>Ticket_Summary_WithSpecialCharacters</name>
+        <qualifiedname>Tests.TicketTests.Ticket_Summary_WithSpecialCharacters</qualifiedname>
+        <briefdescription>
+<para><ref refid="namespace_tests" kindref="compound">Tests</ref> that special characters are preserved in the ticket summary. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" line="146" column="21" bodyfile="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" bodystart="146" bodyend="156"/>
+        <references refid="class_models_1_1_hardware_ticket_1a1a1dd72af7ae94c977b56ee1c6dd5d94" compoundref="_ticket_8cs" startline="76" endline="79">Models.HardwareTicket.GetSummary</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tests_1_1_ticket_tests_1a02a065dc95bd3daea3212f697904312d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tests.TicketTests.SoftwareTicket_LongDescription_ReturnsCorrectSummary</definition>
+        <argsstring>()</argsstring>
+        <name>SoftwareTicket_LongDescription_ReturnsCorrectSummary</name>
+        <qualifiedname>Tests.TicketTests.SoftwareTicket_LongDescription_ReturnsCorrectSummary</qualifiedname>
+        <briefdescription>
+<para><ref refid="namespace_tests" kindref="compound">Tests</ref> that long descriptions in software tickets do not break the summary. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" line="162" column="21" bodyfile="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" bodystart="162" bodyend="172"/>
+        <references refid="class_models_1_1_software_ticket_1a19a4e09eb6de2788e0b8ee593040ed89" compoundref="_ticket_8cs" startline="101" endline="104">Models.SoftwareTicket.GetSummary</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Unit tests for the <ref refid="class_models_1_1_ticket" kindref="compound">Ticket</ref>, <ref refid="class_models_1_1_hardware_ticket" kindref="compound">HardwareTicket</ref>, and <ref refid="class_models_1_1_software_ticket" kindref="compound">SoftwareTicket</ref> classes. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" line="11" column="11" bodyfile="C:/Final_Project_Advance_Programming/TicketTests/TicketTests.cs" bodystart="12" bodyend="173"/>
+    <listofallmembers>
+      <member refid="class_tests_1_1_ticket_tests_1a0e0b5fe4fbea6ee56646122977bdcc93" prot="public" virt="non-virtual"><scope>Tests::TicketTests</scope><name>HardwareTicket_GetSummary_ReturnsCorrectFormat</name></member>
+      <member refid="class_tests_1_1_ticket_tests_1a794ff84de267493ad9f730e7d053f4d4" prot="public" virt="non-virtual"><scope>Tests::TicketTests</scope><name>HardwareTicket_NullProperties_ReturnsSummaryWithNulls</name></member>
+      <member refid="class_tests_1_1_ticket_tests_1ac8606e7582a08a0768ea91121ff8fa3e" prot="public" virt="non-virtual"><scope>Tests::TicketTests</scope><name>SoftwareTicket_EmptyStrings_AreHandledGracefully</name></member>
+      <member refid="class_tests_1_1_ticket_tests_1a2580a485c8fbdaf673f0362a6273c293" prot="public" virt="non-virtual"><scope>Tests::TicketTests</scope><name>SoftwareTicket_GetSummary_ReturnsCorrectFormat</name></member>
+      <member refid="class_tests_1_1_ticket_tests_1a02a065dc95bd3daea3212f697904312d" prot="public" virt="non-virtual"><scope>Tests::TicketTests</scope><name>SoftwareTicket_LongDescription_ReturnsCorrectSummary</name></member>
+      <member refid="class_tests_1_1_ticket_tests_1a679fcf2851d298aaad4dd1dba6325139" prot="public" virt="non-virtual"><scope>Tests::TicketTests</scope><name>SoftwareTicket_NullProperties_ReturnsSummaryWithNulls</name></member>
+      <member refid="class_tests_1_1_ticket_tests_1a3568f976ef71fabfbdc665bb8b908cc9" prot="public" virt="non-virtual"><scope>Tests::TicketTests</scope><name>Ticket_CreatedAtInFuture_ThrowsException</name></member>
+      <member refid="class_tests_1_1_ticket_tests_1a90ea1dcd023f31ec7bac6630a48e7289" prot="public" virt="non-virtual"><scope>Tests::TicketTests</scope><name>Ticket_Initialization_SetsCorrectValues</name></member>
+      <member refid="class_tests_1_1_ticket_tests_1a1f1fe1fe1998924e9cecc09c134306f1" prot="public" virt="non-virtual"><scope>Tests::TicketTests</scope><name>Ticket_InvalidServiceStatus_ThrowsException</name></member>
+      <member refid="class_tests_1_1_ticket_tests_1ac937a6a218f9fc0a8195e89947b17581" prot="public" virt="non-virtual"><scope>Tests::TicketTests</scope><name>Ticket_InvalidStatus_ThrowsException</name></member>
+      <member refid="class_tests_1_1_ticket_tests_1a10ab17ed975ccdb52ba9338ee1a72b1a" prot="public" virt="non-virtual"><scope>Tests::TicketTests</scope><name>Ticket_Summary_WithSpecialCharacters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
